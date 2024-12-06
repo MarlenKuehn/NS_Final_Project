@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Visualization</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+        .controls {
+            margin: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .toggle-button {
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            background: white;
+        }
+        .toggle-button.active {
+            background: #e0e0e0;
+        }
+        .file-input {
+            margin: 20px;
+        }
+        .node-circle {
+            opacity: 0.8;
+            mix-blend-mode: screen;
+        }
+        /* Add styles for the legend */
+        .legend {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .legend-label {
+            font-size: 14px;
+        }
+        /* Add styles for the info panel */
+        .info-panel {
+            margin: 0 20px 20px 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .info-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        .info-content {
+            margin-top: 10px;
+            display: none;
+        }
+        .info-content.show {
+            display: block;
+        }
+        .info-content ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <input type="file" id="json-file" accept=".json">
+        <button id="edge-toggle" class="toggle-button">Show All Edges</button>
+        <div class="info-panel">
+            <div class="info-header" onclick="toggleInfo()">
+                <h3 style="margin: 0;">Map Functionality Guide</h3>
+                <span id="info-toggle">▼</span>
+            </div>
+            <div id="info-content" class="info-content">
+                <p>This interactive map visualizes network data with geographical coordinates. Here's what you can do:</p>
+                <ul>
+                    <li><strong>Load Data:</strong> Upload your JSON file containing nodes (with coordinates and family attributes) and edges.</li>
+                    <li><strong>Node Visualization:</strong> 
+                        <ul>
+                            <li>Nodes are displayed as colored circles on the map</li>
+                            <li>Colors represent different families (see legend in bottom-right)</li>
+                            <li>Hover over nodes to highlight their connections</li>
+                        </ul>
+                    </li>
+                    <li><strong>Edge Display:</strong>
+                        <ul>
+                            <li>Toggle between "Show All Edges" and "Show Edges on Hover" modes</li>
+                            <li>Edges become thicker when hovering over connected nodes</li>
+                        </ul>
+                    </li>
+                    <li><strong>Node Information:</strong>
+                        <ul>
+                            <li>Click any node to see detailed information</li>
+                            <li>View node ID, family, coordinates, and number of connections</li>
+                            <li>Click on neighbor IDs in the popup to navigate to those nodes</li>
+                        </ul>
+                    </li>
+                    <li><strong>Navigation:</strong>
+                        <ul>
+                            <li>Pan and zoom the map freely</li>
+                            <li>Click neighbor links to automatically fly to that location</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script>
+        // Initialize the map with a world view
+        const map = L.map('map', {
+            worldCopyJump: true,
+            preferCanvas: true
+        }).setView([20, 0], 2);
+
+        // Add a light/white tile layer
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            maxZoom: 19,
+            minZoom: 2
+        }).addTo(map);
+
+        // Create a color map for families
+        const familyColors = new Map();
+        const defaultColor = '#808080';  // Default gray for unknown families
+
+        // Function to get or create color for a family
+        function getFamilyColor(family) {
+            if (!family) return defaultColor;
+            
+            if (!familyColors.has(family)) {
+                // Predefined colors for different families
+                const colorPalette = [
+                    '#FF6B6B', // Red
+                    '#4ECDC4', // Teal
+                    '#45B7D1', // Blue
+                    '#96CEB4', // Green
+                    '#FFEEAD', // Yellow
+                    '#D4A5A5', // Pink
+                    '#9B59B6', // Purple
+                    '#E67E22', // Orange
+                    '#1ABC9C', // Turquoise
+                    '#34495E'  // Navy
+                ];
+                familyColors.set(family, colorPalette[familyColors.size % colorPalette.length]);
+            }
+            return familyColors.get(family);
+        }
+
+        // Store nodes, edges, and edge layers
+        let nodes = [];
+        let edges = [];
+        let edgeLayers = new Map(); // To store edge references
+
+  
+
+        // Function to parse JSON file
+        function parseJSON(jsonText) {
+            const data = JSON.parse(jsonText);
+            
+            nodes = data.nodes.map(node => ({
+                id: node.id,
+                lat: parseFloat(node.latitude || node.lat),
+                lon: parseFloat(node.longitude || node.lon),
+                family: node.family,  // Add family attribute
+                color: getFamilyColor(node.family)  // Set color based on family
+            }));
+
+            edges = data.edges.map(edge => ({
+                source: edge.source,
+                target: edge.target
+            }));
+
+            displayGraph();
+            updateLegend(); // Add this line to update the legend
+        }
+
+        // Move panToNode function outside of displayGraph
+        function panToNode(nodeId) {
+            const node = nodes.find(n => n.id === nodeId);
+            if (node) {
+                // Fly to the node with animation
+                map.flyTo([node.lat, node.lon], map.getZoom(), {
+                    duration: 1.5,  // Animation duration in seconds
+                    easeLinearity: 0.25
+                });
+                
+                // Find and open the marker's popup
+                map.eachLayer(layer => {
+                    if (layer instanceof L.CircleMarker) {
+                        const layerLatLng = layer.getLatLng();
+                        if (layerLatLng.lat === node.lat && layerLatLng.lng === node.lon) {
+                            layer.openPopup();
+                        }
+                    }
+                });
+            }
+        }
+
+        // Function to display the graph on the map
+        function displayGraph() {
+            // Clear existing markers and lines
+            map.eachLayer((layer) => {
+                if (!(layer instanceof L.TileLayer)) {
+                    map.removeLayer(layer);
+                }
+            });
+            edgeLayers.clear();
+
+            // Function to count connections for a node
+            function getConnectionCount(nodeId) {
+                return edges.filter(edge => 
+                    edge.source === nodeId || edge.target === nodeId
+                ).length;
+            }
+
+            // Function to get neighbor IDs for a node
+            function getNeighborIds(nodeId) {
+                return edges
+                    .filter(edge => edge.source === nodeId || edge.target === nodeId)
+                    .map(edge => edge.source === nodeId ? edge.target : edge.source)
+                    .sort();
+            }
+
+            // Update createPopupContent to use the global panToNode
+            function createPopupContent(node) {
+                const connectionCount = getConnectionCount(node.id);
+                const neighbors = getNeighborIds(node.id);
+                
+                const neighborLinks = neighbors.map(neighborId => {
+                    const neighbor = nodes.find(n => n.id === neighborId);
+                    if (neighbor) {
+                        return `<a href="#" onclick="panToNode('${neighborId}'); return false;" 
+                            style="color: #0078A8; text-decoration: none; display: inline-block; padding: 2px 5px;">
+                            ${neighborId}
+                        </a>`;
+                    }
+                    return neighborId;
+                });
+                
+                return `
+                    <div style="min-width: 200px;">
+                        <h3 style="margin: 0 0 10px 0;">Node Details</h3>
+                        <table style="width: 100%; border-collapse: collapse;">
+                            <tr>
+                                <td style="padding: 3px 0"><strong>ID:</strong></td>
+                                <td>${node.id}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 3px 0"><strong>Family:</strong></td>
+                                <td>${node.family || 'N/A'}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 3px 0"><strong>Latitude:</strong></td>
+                                <td>${node.lat.toFixed(4)}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 3px 0"><strong>Longitude:</strong></td>
+                                <td>${node.lon.toFixed(4)}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 3px 0"><strong>Connections:</strong></td>
+                                <td>${connectionCount}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 3px 0; vertical-align: top;"><strong>Neighbors:</strong></td>
+                                <td style="max-height: 100px; overflow-y: auto;">
+                                    ${neighborLinks.join('<br>')}
+                                </td>
+                            </tr>
+                        </table>
+                    </div>`;
+            }
+
+            // Add nodes as circle markers
+            nodes.forEach(node => {
+                if (node.lat && node.lon) {
+                    const marker = L.circleMarker([node.lat, node.lon], {
+                        radius: 8,
+                        fillColor: node.color,
+                        color: 'white',
+                        weight: 1,
+                        opacity: 0.2,
+                        fillOpacity: 0.8,
+                        className: 'node-circle'
+                    })
+                    .bindPopup(createPopupContent(node))  // Use the new popup content
+                    .addTo(map);
+
+                    // Add hover handlers
+                    marker.on('mouseover', () => showConnectedEdges(node.id));
+                    marker.on('mouseout', () => hideConnectedEdges(node.id));
+                }
+            });
+
+            // Create edge layers but don't add them to map yet
+            edges.forEach(edge => {
+                const sourceNode = nodes.find(n => n.id === edge.source);
+                const targetNode = nodes.find(n => n.id === edge.target);
+                
+                if (sourceNode && targetNode && 
+                    sourceNode.lat && sourceNode.lon && 
+                    targetNode.lat && targetNode.lon) {
+                    const edgeLine = L.polyline([
+                        [sourceNode.lat, sourceNode.lon],
+                        [targetNode.lat, targetNode.lon]
+                    ], {
+                        color: 'rgba(0, 0, 0, 0.2)',
+                        weight: 1,
+                        opacity: 0.3
+                    });
+
+                    // Store edge references for both connected nodes
+                    if (!edgeLayers.has(edge.source)) {
+                        edgeLayers.set(edge.source, []);
+                    }
+                    if (!edgeLayers.has(edge.target)) {
+                        edgeLayers.set(edge.target, []);
+                    }
+                    edgeLayers.get(edge.source).push(edgeLine);
+                    edgeLayers.get(edge.target).push(edgeLine);
+                }
+            });
+
+            // Fit map bounds to show all nodes
+            if (nodes.length > 0) {
+                const bounds = nodes
+                    .filter(node => node.lat && node.lon)
+                    .map(node => [node.lat, node.lon]);
+                if (bounds.length > 0) {
+                    map.fitBounds(bounds);
+                }
+            }
+        }
+
+        // Add state for edge visibility mode
+        let showEdgesOnHover = true;
+
+        // Function to toggle edge visibility mode
+        function toggleEdgeMode() {
+            showEdgesOnHover = !showEdgesOnHover;
+            const button = document.getElementById('edge-toggle');
+            button.textContent = showEdgesOnHover ? 'Show All Edges' : 'Show Edges on Hover';
+            button.classList.toggle('active');
+            
+            // If switching to show all edges, display them all
+            if (!showEdgesOnHover) {
+                edgeLayers.forEach(edges => {
+                    edges.forEach(edge => edge.addTo(map));
+                });
+            } else {
+                // If switching to hover mode, hide all edges
+                edgeLayers.forEach(edges => {
+                    edges.forEach(edge => map.removeLayer(edge));
+                });
+            }
+        }
+
+        // Add button click handler
+        document.getElementById('edge-toggle').addEventListener('click', toggleEdgeMode);
+
+        // Update showConnectedEdges to work in both modes
+        function showConnectedEdges(nodeId) {
+            const connectedEdges = edgeLayers.get(nodeId) || [];
+            connectedEdges.forEach(edge => {
+                // Always make edges thicker on hover, regardless of mode
+                edge.setStyle({
+                    weight: 3,  // Thicker line
+                    opacity: 0.6,  // More visible
+                    color: 'rgba(0, 0, 0, 0.5)'  // Darker color
+                });
+                
+                // Only add to map if in hover mode
+                if (showEdgesOnHover) {
+                    edge.addTo(map);
+                }
+            });
+        }
+
+        // Update hideConnectedEdges to work in both modes
+        function hideConnectedEdges(nodeId) {
+            const connectedEdges = edgeLayers.get(nodeId) || [];
+            connectedEdges.forEach(edge => {
+                // Reset to original style
+                edge.setStyle({
+                    weight: 1,
+                    opacity: 0.3,
+                    color: 'rgba(0, 0, 0, 0.2)'
+                });
+                
+                // Only remove from map if in hover mode
+                if (showEdgesOnHover) {
+                    map.removeLayer(edge);
+                }
+            });
+        }
+
+        // Handle file upload
+        document.getElementById('json-file').addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    parseJSON(e.target.result);
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        // Add function to create and update legend
+        function updateLegend() {
+            // Remove existing legend if any
+            const existingLegend = document.querySelector('.legend');
+            if (existingLegend) {
+                existingLegend.remove();
+            }
+
+            // Create new legend
+            const legend = document.createElement('div');
+            legend.className = 'legend';
+            
+            // Add title
+            const title = document.createElement('div');
+            title.style.fontWeight = 'bold';
+            title.style.marginBottom = '10px';
+            title.textContent = 'Families';
+            legend.appendChild(title);
+
+            // Add items for each family
+            Array.from(familyColors.entries()).forEach(([family, color]) => {
+                const item = document.createElement('div');
+                item.className = 'legend-item';
+                
+                const colorBox = document.createElement('div');
+                colorBox.className = 'legend-color';
+                colorBox.style.backgroundColor = color;
+                
+                const label = document.createElement('div');
+                label.className = 'legend-label';
+                label.textContent = family;
+                
+                item.appendChild(colorBox);
+                item.appendChild(label);
+                legend.appendChild(item);
+            });
+
+            // Add legend to map
+            document.getElementById('map').appendChild(legend);
+        }
+
+        // Add this function at the end of your script
+        function toggleInfo() {
+            const content = document.getElementById('info-content');
+            const toggle = document.getElementById('info-toggle');
+            content.classList.toggle('show');
+            toggle.textContent = content.classList.contains('show') ? '▲' : '▼';
+        }
+    </script>
+</body>
+</html>
