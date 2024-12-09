@@ -4,6 +4,8 @@
       "id": "Eos histrio",
       "latitude": "4.21",
       "longitude": "126.78",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eos histrio"
     },
@@ -11,6 +13,8 @@
       "id": "Trichoglossus euteles",
       "latitude": "-8.98",
       "longitude": "125.22",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus euteles"
     },
@@ -18,6 +22,8 @@
       "id": "Trichoglossus johnstoniae",
       "latitude": "7.32",
       "longitude": "124.74",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus johnstoniae"
     },
@@ -25,6 +31,8 @@
       "id": "Vini australis",
       "latitude": "-14.66",
       "longitude": "-172.41",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Vini australis"
     },
@@ -32,6 +40,8 @@
       "id": "Charmosyna palmarum",
       "latitude": "-15.49",
       "longitude": "167.39",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna palmarum"
     },
@@ -39,6 +49,8 @@
       "id": "Prioniturus mada",
       "latitude": "-3.44",
       "longitude": "126.54",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus mada"
     },
@@ -46,6 +58,8 @@
       "id": "Agapornis nigrigenis",
       "latitude": "-16.86",
       "longitude": "25.5",
+      "redlist_category": "Vulnerable",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Agapornis nigrigenis"
     },
@@ -53,6 +67,8 @@
       "id": "Loriculus galgulus",
       "latitude": "1.04",
       "longitude": "108.17",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus galgulus"
     },
@@ -60,6 +76,8 @@
       "id": "Loriculus catamene",
       "latitude": "3.56",
       "longitude": "125.54",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus catamene"
     },
@@ -67,6 +85,8 @@
       "id": "Nicopsitta calthrapae",
       "latitude": "6.94",
       "longitude": "80.73",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Nicopsitta calthrapae"
     },
@@ -74,6 +94,8 @@
       "id": "Anodorhynchus hyacinthinus",
       "latitude": "-12.28",
       "longitude": "-52.74",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Anodorhynchus hyacinthinus"
     },
@@ -81,6 +103,8 @@
       "id": "Primolius maracana",
       "latitude": "-15.24",
       "longitude": "-48.58",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Primolius maracana"
     },
@@ -88,6 +112,8 @@
       "id": "Psittacara leucophthalmus",
       "latitude": "-12.19",
       "longitude": "-58.18",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara leucophthalmus"
     },
@@ -95,6 +121,8 @@
       "id": "Aratinga jandaya",
       "latitude": "-6.83",
       "longitude": "-44.26",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Aratinga jandaya"
     },
@@ -102,6 +130,8 @@
       "id": "Pyrrhura cruentata",
       "latitude": "-18.24",
       "longitude": "-40.6",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura cruentata"
     },
@@ -109,6 +139,8 @@
       "id": "Pyrrhura frontalis",
       "latitude": "-22.57",
       "longitude": "-48.65",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura frontalis"
     },
@@ -116,6 +148,8 @@
       "id": "Pyrrhura hoematotis",
       "latitude": "10.26",
       "longitude": "-67.7",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura hoematotis"
     },
@@ -123,6 +157,8 @@
       "id": "Enicognathus ferrugineus",
       "latitude": "-44.04",
       "longitude": "-71.96",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Enicognathus ferrugineus"
     },
@@ -130,6 +166,8 @@
       "id": "Pionites melanocephalus",
       "latitude": "1.31",
       "longitude": "-64.3",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionites melanocephalus"
     },
@@ -137,6 +175,8 @@
       "id": "Pionus chalcopterus",
       "latitude": "2.12",
       "longitude": "-77.46",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionus chalcopterus"
     },
@@ -144,6 +184,8 @@
       "id": "Pionus fuscus",
       "latitude": "1.03",
       "longitude": "-55.72",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionus fuscus"
     },
@@ -151,6 +193,8 @@
       "id": "Trichoglossus flavoviridis",
       "latitude": "-1.83",
       "longitude": "125.04",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus flavoviridis"
     },
@@ -158,6 +202,8 @@
       "id": "Pionus tumultuosus",
       "latitude": "-14.24",
       "longitude": "-70.31",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionus tumultuosus"
     },
@@ -165,6 +211,8 @@
       "id": "Coracopsis nigra",
       "latitude": "-19.38",
       "longitude": "46.7",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Coracopsis nigra"
     },
@@ -172,6 +220,8 @@
       "id": "Psittacara rubritorquis",
       "latitude": "14.3",
       "longitude": "-87.25",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara rubritorquis"
     },
@@ -179,6 +229,8 @@
       "id": "Aratinga maculata",
       "latitude": "-1.5",
       "longitude": "-54.09",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Aratinga maculata"
     },
@@ -186,6 +238,8 @@
       "id": "Eupsittula astec",
       "latitude": "17.62",
       "longitude": "-90.24",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eupsittula astec"
     },
@@ -193,6 +247,8 @@
       "id": "Geoffroyus hyacinthinus",
       "latitude": "-11.65",
       "longitude": "160.25",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Geoffroyus hyacinthinus"
     },
@@ -200,6 +256,8 @@
       "id": "Pyrrhura lucianii",
       "latitude": "-3.67",
       "longitude": "-66",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura lucianii"
     },
@@ -207,6 +265,8 @@
       "id": "Pyrrhura pacifica",
       "latitude": "0.99",
       "longitude": "-78.61",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura pacifica"
     },
@@ -214,6 +274,8 @@
       "id": "Diopsittaca nobilis",
       "latitude": "5.89",
       "longitude": "-59.66",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Diopsittaca nobilis"
     },
@@ -221,6 +283,8 @@
       "id": "Tanygnathus gramineus",
       "latitude": "-3.33",
       "longitude": "126.36",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Tanygnathus gramineus"
     },
@@ -228,6 +292,8 @@
       "id": "Palaeornis eupatria",
       "latitude": "21.89",
       "longitude": "87.11",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Palaeornis eupatria"
     },
@@ -235,6 +301,8 @@
       "id": "Trichoglossus weberi",
       "latitude": "-8.61",
       "longitude": "121.15",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus weberi"
     },
@@ -242,6 +310,8 @@
       "id": "Lorius garrulus",
       "latitude": "0.62",
       "longitude": "127.97",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Lorius garrulus"
     },
@@ -249,6 +319,8 @@
       "id": "Cacatua haematuropygia",
       "latitude": "10.02",
       "longitude": "120.81",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua haematuropygia"
     },
@@ -256,6 +328,8 @@
       "id": "Amazona brasiliensis",
       "latitude": "-25.12",
       "longitude": "-48.04",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona brasiliensis"
     },
@@ -263,6 +337,8 @@
       "id": "Psittrichas fulgidus",
       "latitude": "-5.58",
       "longitude": "142.61",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittrichas fulgidus"
     },
@@ -270,6 +346,8 @@
       "id": "Pyrrhura leucotis",
       "latitude": "-19.05",
       "longitude": "-41.54",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura leucotis"
     },
@@ -277,6 +355,8 @@
       "id": "Amazona vinacea",
       "latitude": "-24.88",
       "longitude": "-47.86",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona vinacea"
     },
@@ -284,6 +364,8 @@
       "id": "Amazona rhodocorytha",
       "latitude": "-20.95",
       "longitude": "-42.36",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona rhodocorytha"
     },
@@ -291,6 +373,8 @@
       "id": "Poicephalus fuscicollis",
       "latitude": "-9.56",
       "longitude": "24.33",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus fuscicollis"
     },
@@ -298,6 +382,8 @@
       "id": "Nestor notabilis",
       "latitude": "-43.37",
       "longitude": "170.31",
+      "redlist_category": "Endangered",
+      "habitat": "Grassland",
       "family": "STRIGOPIDAE",
       "scientific_name": "Nestor notabilis"
     },
@@ -305,6 +391,8 @@
       "id": "Prioniturus verticalis",
       "latitude": "5.2",
       "longitude": "120.06",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus verticalis"
     },
@@ -312,6 +400,8 @@
       "id": "Charmosyna amabilis",
       "latitude": "-17.4",
       "longitude": "171.84",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna amabilis"
     },
@@ -319,6 +409,8 @@
       "id": "Polytelis swainsonii",
       "latitude": "-34.97",
       "longitude": "146.62",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Polytelis swainsonii"
     },
@@ -326,6 +418,8 @@
       "id": "Chalcopsitta duivenbodei",
       "latitude": "-3.81",
       "longitude": "142.3",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Chalcopsitta duivenbodei"
     },
@@ -333,6 +427,8 @@
       "id": "Psitteuteles goldiei",
       "latitude": "-5.95",
       "longitude": "142.94",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psitteuteles goldiei"
     },
@@ -340,6 +436,8 @@
       "id": "Lorius lory",
       "latitude": "-5.26",
       "longitude": "140.9",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Lorius lory"
     },
@@ -347,6 +445,8 @@
       "id": "Cacatua ducorpsii",
       "latitude": "-7.84",
       "longitude": "157.95",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua ducorpsii"
     },
@@ -354,6 +454,8 @@
       "id": "Geoffroyus geoffroyi",
       "latitude": "-5.48",
       "longitude": "138.95",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Geoffroyus geoffroyi"
     },
@@ -361,6 +463,8 @@
       "id": "Prioniturus platurus",
       "latitude": "-2.08",
       "longitude": "121.33",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus platurus"
     },
@@ -368,6 +472,8 @@
       "id": "Agapornis swindernianus",
       "latitude": "1.27",
       "longitude": "19.53",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Agapornis swindernianus"
     },
@@ -375,6 +481,8 @@
       "id": "Ara severus",
       "latitude": "-4.21",
       "longitude": "-64.83",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Ara severus"
     },
@@ -382,6 +490,8 @@
       "id": "Pyrrhura molinae",
       "latitude": "-17.59",
       "longitude": "-61.89",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura molinae"
     },
@@ -389,6 +499,8 @@
       "id": "Brotogeris chiriri",
       "latitude": "-15.83",
       "longitude": "-52.56",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Brotogeris chiriri"
     },
@@ -396,6 +508,8 @@
       "id": "Touit dilectissimus",
       "latitude": "3.24",
       "longitude": "-77.34",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Touit dilectissimus"
     },
@@ -403,6 +517,8 @@
       "id": "Pionopsitta pileata",
       "latitude": "-25.86",
       "longitude": "-50.6",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionopsitta pileata"
     },
@@ -410,6 +526,8 @@
       "id": "Lathamus discolor",
       "latitude": "-42.48",
       "longitude": "147.61",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Lathamus discolor"
     },
@@ -417,6 +535,8 @@
       "id": "Cyanoramphus malherbi",
       "latitude": "-42.76",
       "longitude": "171.92",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyanoramphus malherbi"
     },
@@ -424,6 +544,8 @@
       "id": "Neophema chrysogaster",
       "latitude": "-42.81",
       "longitude": "145.83",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Neophema chrysogaster"
     },
@@ -431,6 +553,8 @@
       "id": "Coracopsis vasa",
       "latitude": "-19.53",
       "longitude": "46.69",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Coracopsis vasa"
     },
@@ -438,6 +562,8 @@
       "id": "Eolophus roseicapilla",
       "latitude": "-25.5",
       "longitude": "134.86",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "CACATUIDAE",
       "scientific_name": "Eolophus roseicapilla"
     },
@@ -445,6 +571,8 @@
       "id": "Agapornis canus",
       "latitude": "-19.56",
       "longitude": "46.7",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Agapornis canus"
     },
@@ -452,6 +580,8 @@
       "id": "Eos bornea",
       "latitude": "-3.4",
       "longitude": "128.72",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eos bornea"
     },
@@ -459,6 +589,8 @@
       "id": "Cacatua leadbeateri",
       "latitude": "-27.45",
       "longitude": "134.93",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua leadbeateri"
     },
@@ -466,6 +598,8 @@
       "id": "Cacatua galerita",
       "latitude": "-21",
       "longitude": "142.3",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua galerita"
     },
@@ -473,6 +607,8 @@
       "id": "Cacatua sanguinea",
       "latitude": "-25.44",
       "longitude": "136.73",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua sanguinea"
     },
@@ -480,6 +616,8 @@
       "id": "Agapornis roseicollis",
       "latitude": "-20.62",
       "longitude": "16.11",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Agapornis roseicollis"
     },
@@ -487,6 +625,8 @@
       "id": "Agapornis personatus",
       "latitude": "-5.94",
       "longitude": "35.62",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Agapornis personatus"
     },
@@ -494,6 +634,8 @@
       "id": "Agapornis lilianae",
       "latitude": "-11.77",
       "longitude": "32.72",
+      "redlist_category": "Near Threatened",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Agapornis lilianae"
     },
@@ -501,6 +643,8 @@
       "id": "Ara ararauna",
       "latitude": "-6.59",
       "longitude": "-60.82",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Ara ararauna"
     },
@@ -508,6 +652,8 @@
       "id": "Aratinga nenday",
       "latitude": "-22.37",
       "longitude": "-58.48",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Aratinga nenday"
     },
@@ -515,6 +661,8 @@
       "id": "Forpus passerinus",
       "latitude": "5.77",
       "longitude": "-61.48",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Forpus passerinus"
     },
@@ -522,6 +670,8 @@
       "id": "Brotogeris versicolurus",
       "latitude": "-2.43",
       "longitude": "-60.82",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Brotogeris versicolurus"
     },
@@ -529,6 +679,8 @@
       "id": "Amazona albifrons",
       "latitude": "17.92",
       "longitude": "-92.69",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona albifrons"
     },
@@ -536,6 +688,8 @@
       "id": "Amazona ochrocephala",
       "latitude": "-1.78",
       "longitude": "-64.37",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona ochrocephala"
     },
@@ -543,6 +697,8 @@
       "id": "Amazona amazonica",
       "latitude": "-5.01",
       "longitude": "-58.9",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona amazonica"
     },
@@ -550,6 +706,8 @@
       "id": "Guaruba guarouba",
       "latitude": "-4.09",
       "longitude": "-52.53",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Guaruba guarouba"
     },
@@ -557,6 +715,8 @@
       "id": "Cyanoramphus novaezelandiae",
       "latitude": "-26.76",
       "longitude": "149.01",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyanoramphus novaezelandiae"
     },
@@ -564,6 +724,8 @@
       "id": "Amazona autumnalis",
       "latitude": "12.93",
       "longitude": "-84.94",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona autumnalis"
     },
@@ -571,6 +733,8 @@
       "id": "Geoffroyus heteroclitus",
       "latitude": "-6.46",
       "longitude": "154.27",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Geoffroyus heteroclitus"
     },
@@ -578,6 +742,8 @@
       "id": "Trichoglossus chlorolepidotus",
       "latitude": "-24.16",
       "longitude": "148.07",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus chlorolepidotus"
     },
@@ -585,6 +751,8 @@
       "id": "Vini ultramarina",
       "latitude": "-8.91",
       "longitude": "-139.55",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Vini ultramarina"
     },
@@ -592,6 +760,8 @@
       "id": "Nymphicus hollandicus",
       "latitude": "-25.22",
       "longitude": "134.6",
+      "redlist_category": "Least Concern",
+      "habitat": "Grassland",
       "family": "CACATUIDAE",
       "scientific_name": "Nymphicus hollandicus"
     },
@@ -599,6 +769,8 @@
       "id": "Tanygnathus lucionensis",
       "latitude": "11.72",
       "longitude": "122.9",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Tanygnathus lucionensis"
     },
@@ -606,6 +778,8 @@
       "id": "Prosopeia tabuensis",
       "latitude": "-16.66",
       "longitude": "158.98",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prosopeia tabuensis"
     },
@@ -613,6 +787,8 @@
       "id": "Melopsittacus undulatus",
       "latitude": "-25.84",
       "longitude": "132.9",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Melopsittacus undulatus"
     },
@@ -620,6 +796,8 @@
       "id": "Psittacara acuticaudatus",
       "latitude": "-17.6",
       "longitude": "-59.05",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara acuticaudatus"
     },
@@ -627,6 +805,8 @@
       "id": "Psittacara mitratus",
       "latitude": "-18.28",
       "longitude": "-67.37",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara mitratus"
     },
@@ -634,6 +814,8 @@
       "id": "Trichoglossus haematodus",
       "latitude": "-5.75",
       "longitude": "142.31",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus haematodus"
     },
@@ -641,6 +823,8 @@
       "id": "Platycercus elegans",
       "latitude": "-32.73",
       "longitude": "147.25",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Platycercus elegans"
     },
@@ -648,6 +832,8 @@
       "id": "Pyrrhura griseipectus",
       "latitude": "-4.28",
       "longitude": "-38.91",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura griseipectus"
     },
@@ -655,6 +841,8 @@
       "id": "Myiopsitta monachus",
       "latitude": "-29.98",
       "longitude": "-60.62",
+      "redlist_category": "Least Concern",
+      "habitat": "Human Modified",
       "family": "PSITTACIDAE",
       "scientific_name": "Myiopsitta monachus"
     },
@@ -662,6 +850,8 @@
       "id": "Psittacara holochlorus",
       "latitude": "21.32",
       "longitude": "-97.21",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara holochlorus"
     },
@@ -669,6 +859,8 @@
       "id": "Cyanoliseus patagonus",
       "latitude": "-36.96",
       "longitude": "-66.83",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyanoliseus patagonus"
     },
@@ -676,6 +868,8 @@
       "id": "Amazona xantholora",
       "latitude": "19.72",
       "longitude": "-89",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona xantholora"
     },
@@ -683,6 +877,8 @@
       "id": "Pionus senilis",
       "latitude": "16.36",
       "longitude": "-90.11",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionus senilis"
     },
@@ -690,6 +886,8 @@
       "id": "Pyrilia haematotis",
       "latitude": "14.68",
       "longitude": "-87.5",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrilia haematotis"
     },
@@ -697,6 +895,8 @@
       "id": "Brotogeris jugularis",
       "latitude": "9.32",
       "longitude": "-75.49",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Brotogeris jugularis"
     },
@@ -704,6 +904,8 @@
       "id": "Bolborhynchus lineola",
       "latitude": "5.54",
       "longitude": "-82.15",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Bolborhynchus lineola"
     },
@@ -711,6 +913,8 @@
       "id": "Psittacara finschi",
       "latitude": "10.97",
       "longitude": "-84.04",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara finschi"
     },
@@ -718,6 +922,8 @@
       "id": "Pyrrhura hoffmanni",
       "latitude": "9.24",
       "longitude": "-83.02",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura hoffmanni"
     },
@@ -725,6 +931,8 @@
       "id": "Eos reticulata",
       "latitude": "-7.57",
       "longitude": "131.29",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eos reticulata"
     },
@@ -732,6 +940,8 @@
       "id": "Psittacula caniceps",
       "latitude": "7.06",
       "longitude": "93.79",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacula caniceps"
     },
@@ -739,6 +949,8 @@
       "id": "Amazona viridigenalis",
       "latitude": "22.34",
       "longitude": "-99.08",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona viridigenalis"
     },
@@ -746,6 +958,8 @@
       "id": "Cyanopsitta spixii",
       "latitude": "",
       "longitude": "",
+      "redlist_category": "Extinct in the Wild",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyanopsitta spixii"
     },
@@ -753,6 +967,8 @@
       "id": "Alexandrinus eques",
       "latitude": "-20.41",
       "longitude": "57.47",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Alexandrinus eques"
     },
@@ -760,6 +976,8 @@
       "id": "Psittacara wagleri",
       "latitude": "5.47",
       "longitude": "-74.31",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara wagleri"
     },
@@ -767,6 +985,8 @@
       "id": "Anodorhynchus glaucus",
       "latitude": "",
       "longitude": "",
+      "redlist_category": "Critically Endangered",
+      "habitat": "",
       "family": "PSITTACIDAE",
       "scientific_name": "Anodorhynchus glaucus"
     },
@@ -774,6 +994,8 @@
       "id": "Psittacus erithacus",
       "latitude": "0.03",
       "longitude": "18.71",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacus erithacus"
     },
@@ -781,6 +1003,8 @@
       "id": "Amazona aestiva",
       "latitude": "-17.01",
       "longitude": "-52.1",
+      "redlist_category": "Near Threatened",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona aestiva"
     },
@@ -788,6 +1012,8 @@
       "id": "Pyrrhura melanura",
       "latitude": "-1.04",
       "longitude": "-70.48",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura melanura"
     },
@@ -795,6 +1021,8 @@
       "id": "Eclectus polychloros",
       "latitude": "-5.51",
       "longitude": "141.96",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eclectus polychloros"
     },
@@ -802,6 +1030,8 @@
       "id": "Eclectus riedeli",
       "latitude": "-7.56",
       "longitude": "131.44",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eclectus riedeli"
     },
@@ -809,6 +1039,8 @@
       "id": "Eclectus cornelia",
       "latitude": "-9.76",
       "longitude": "119.96",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eclectus cornelia"
     },
@@ -816,6 +1048,8 @@
       "id": "Poicephalus senegalus",
       "latitude": "11.06",
       "longitude": "-0.67",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus senegalus"
     },
@@ -823,6 +1057,8 @@
       "id": "Pyrrhura chapmani",
       "latitude": "2.34",
       "longitude": "-75.73",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura chapmani"
     },
@@ -830,6 +1066,8 @@
       "id": "Eclectus roratus",
       "latitude": "-1.39",
       "longitude": "128.26",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eclectus roratus"
     },
@@ -837,6 +1075,8 @@
       "id": "Eos semilarvata",
       "latitude": "-3.14",
       "longitude": "129.41",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eos semilarvata"
     },
@@ -844,6 +1084,8 @@
       "id": "Loriculus flosculus",
       "latitude": "-8.62",
       "longitude": "121.11",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus flosculus"
     },
@@ -851,6 +1093,8 @@
       "id": "Charmosyna diadema",
       "latitude": "",
       "longitude": "",
+      "redlist_category": "Critically Endangered",
+      "habitat": "",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna diadema"
     },
@@ -858,6 +1102,8 @@
       "id": "Eupsittula pertinax",
       "latitude": "6.29",
       "longitude": "-66.15",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Eupsittula pertinax"
     },
@@ -865,6 +1111,8 @@
       "id": "Ara chloropterus",
       "latitude": "-5.12",
       "longitude": "-61.95",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Ara chloropterus"
     },
@@ -872,6 +1120,8 @@
       "id": "Ara macao",
       "latitude": "-2.86",
       "longitude": "-63.9",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Ara macao"
     },
@@ -879,6 +1129,8 @@
       "id": "Forpus conspicillatus",
       "latitude": "6.3",
       "longitude": "-73.8",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Forpus conspicillatus"
     },
@@ -886,6 +1138,8 @@
       "id": "Pionus menstruus",
       "latitude": "-4.26",
       "longitude": "-62.5",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionus menstruus"
     },
@@ -893,6 +1147,8 @@
       "id": "Pyrrhura picta",
       "latitude": "3.06",
       "longitude": "-58.87",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura picta"
     },
@@ -900,6 +1156,8 @@
       "id": "Pyrrhura emma",
       "latitude": "10.33",
       "longitude": "-66.31",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura emma"
     },
@@ -907,6 +1165,8 @@
       "id": "Amazona diadema",
       "latitude": "-2.84",
       "longitude": "-60.55",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona diadema"
     },
@@ -914,6 +1174,8 @@
       "id": "Forpus xanthops",
       "latitude": "-7.37",
       "longitude": "-77.85",
+      "redlist_category": "Vulnerable",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Forpus xanthops"
     },
@@ -921,6 +1183,8 @@
       "id": "Psittacus timneh",
       "latitude": "6.74",
       "longitude": "-8.72",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacus timneh"
     },
@@ -928,6 +1192,8 @@
       "id": "Ara ambiguus",
       "latitude": "8.44",
       "longitude": "-79.83",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Ara ambiguus"
     },
@@ -935,6 +1201,8 @@
       "id": "Pyrrhura viridicata",
       "latitude": "11.01",
       "longitude": "-73.76",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura viridicata"
     },
@@ -942,6 +1210,8 @@
       "id": "Amazona dufresniana",
       "latitude": "4.82",
       "longitude": "-57",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona dufresniana"
     },
@@ -949,6 +1219,8 @@
       "id": "Leptosittaca branickii",
       "latitude": "-4.59",
       "longitude": "-75.13",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Leptosittaca branickii"
     },
@@ -956,6 +1228,8 @@
       "id": "Trichoglossus forsteni",
       "latitude": "-8.55",
       "longitude": "117",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus forsteni"
     },
@@ -963,6 +1237,8 @@
       "id": "Anodorhynchus leari",
       "latitude": "-10.08",
       "longitude": "-39.3",
+      "redlist_category": "Endangered",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Anodorhynchus leari"
     },
@@ -970,6 +1246,8 @@
       "id": "Pionus reichenowi",
       "latitude": "-14.48",
       "longitude": "-38.88",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionus reichenowi"
     },
@@ -977,6 +1255,8 @@
       "id": "Poicephalus cryptoxanthus",
       "latitude": "-15.7",
       "longitude": "35.89",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus cryptoxanthus"
     },
@@ -984,6 +1264,8 @@
       "id": "Cacatua alba",
       "latitude": "0.69",
       "longitude": "127.94",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua alba"
     },
@@ -991,6 +1273,8 @@
       "id": "Cacatua goffiniana",
       "latitude": "-7.61",
       "longitude": "131.37",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua goffiniana"
     },
@@ -998,6 +1282,8 @@
       "id": "Cacatua sulphurea",
       "latitude": "-4.29",
       "longitude": "121.36",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua sulphurea"
     },
@@ -1005,6 +1291,8 @@
       "id": "Agapornis fischeri",
       "latitude": "-3.02",
       "longitude": "34.28",
+      "redlist_category": "Near Threatened",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Agapornis fischeri"
     },
@@ -1012,6 +1300,8 @@
       "id": "Amazona collaria",
       "latitude": "18.18",
       "longitude": "-77.29",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona collaria"
     },
@@ -1019,6 +1309,8 @@
       "id": "Amazona leucocephala",
       "latitude": "21.67",
       "longitude": "-78.72",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona leucocephala"
     },
@@ -1026,6 +1318,8 @@
       "id": "Amazona ventralis",
       "latitude": "18.66",
       "longitude": "-70.93",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona ventralis"
     },
@@ -1033,6 +1327,8 @@
       "id": "Amazona vittata",
       "latitude": "18.29",
       "longitude": "-65.93",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona vittata"
     },
@@ -1040,6 +1336,8 @@
       "id": "Coracopsis barklyi",
       "latitude": "-4.32",
       "longitude": "55.73",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Coracopsis barklyi"
     },
@@ -1047,6 +1345,8 @@
       "id": "Amazona finschi",
       "latitude": "22.34",
       "longitude": "-104.94",
+      "redlist_category": "Endangered",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona finschi"
     },
@@ -1054,6 +1354,8 @@
       "id": "Amazona versicolor",
       "latitude": "13.88",
       "longitude": "-60.97",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona versicolor"
     },
@@ -1061,6 +1363,8 @@
       "id": "Amazona oratrix",
       "latitude": "18.34",
       "longitude": "-93.37",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona oratrix"
     },
@@ -1068,6 +1372,8 @@
       "id": "Amazona guatemalae",
       "latitude": "15.79",
       "longitude": "-88.87",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona guatemalae"
     },
@@ -1075,6 +1381,8 @@
       "id": "Amazona guildingii",
       "latitude": "13.25",
       "longitude": "-61.2",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona guildingii"
     },
@@ -1082,6 +1390,8 @@
       "id": "Forpus cyanopygius",
       "latitude": "23.65",
       "longitude": "-106.42",
+      "redlist_category": "Near Threatened",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Forpus cyanopygius"
     },
@@ -1089,6 +1399,8 @@
       "id": "Pyrrhura eisenmanni",
       "latitude": "7.35",
       "longitude": "-80.7",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura eisenmanni"
     },
@@ -1096,6 +1408,8 @@
       "id": "Rhynchopsitta terrisi",
       "latitude": "25.37",
       "longitude": "-100.42",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Rhynchopsitta terrisi"
     },
@@ -1103,6 +1417,8 @@
       "id": "Eupsittula nana",
       "latitude": "18.16",
       "longitude": "-77.31",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eupsittula nana"
     },
@@ -1110,6 +1426,8 @@
       "id": "Poicephalus robustus",
       "latitude": "-30.97",
       "longitude": "28.7",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus robustus"
     },
@@ -1117,6 +1435,8 @@
       "id": "Ara militaris",
       "latitude": "-3.31",
       "longitude": "-74.31",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Ara militaris"
     },
@@ -1124,6 +1444,8 @@
       "id": "Psittacara chloropterus",
       "latitude": "18.6",
       "longitude": "-71.47",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara chloropterus"
     },
@@ -1131,6 +1453,8 @@
       "id": "Amazona arausiaca",
       "latitude": "15.46",
       "longitude": "-61.38",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona arausiaca"
     },
@@ -1138,6 +1462,8 @@
       "id": "Amazona imperialis",
       "latitude": "15.47",
       "longitude": "-61.38",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona imperialis"
     },
@@ -1145,6 +1471,8 @@
       "id": "Pyrrhura subandina",
       "latitude": "",
       "longitude": "",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura subandina"
     },
@@ -1152,6 +1480,8 @@
       "id": "Pyrrhura caeruleiceps",
       "latitude": "9.51",
       "longitude": "-73.04",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura caeruleiceps"
     },
@@ -1159,6 +1489,8 @@
       "id": "Pyrrhura calliptera",
       "latitude": "4.69",
       "longitude": "-73.68",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura calliptera"
     },
@@ -1166,6 +1498,8 @@
       "id": "Psittacara euops",
       "latitude": "21.49",
       "longitude": "-78.49",
+      "redlist_category": "Vulnerable",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara euops"
     },
@@ -1173,6 +1507,8 @@
       "id": "Amazona auropalliata",
       "latitude": "13.61",
       "longitude": "-87.61",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona auropalliata"
     },
@@ -1180,6 +1516,8 @@
       "id": "Pyrrhura rupicola",
       "latitude": "-11.14",
       "longitude": "-70.11",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura rupicola"
     },
@@ -1187,6 +1525,8 @@
       "id": "Nannopsittaca dachilleae",
       "latitude": "-12.34",
       "longitude": "-69.75",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Nannopsittaca dachilleae"
     },
@@ -1194,6 +1534,8 @@
       "id": "Amazona agilis",
       "latitude": "18.24",
       "longitude": "-77.54",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona agilis"
     },
@@ -1201,6 +1543,8 @@
       "id": "Ognorhynchus icterotis",
       "latitude": "5.24",
       "longitude": "-75.86",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Ognorhynchus icterotis"
     },
@@ -1208,6 +1552,8 @@
       "id": "Amazona lilacina",
       "latitude": "-1.91",
       "longitude": "-79.93",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona lilacina"
     },
@@ -1215,6 +1561,8 @@
       "id": "Pyrrhura orcesi",
       "latitude": "-3.26",
       "longitude": "-79.58",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura orcesi"
     },
@@ -1222,6 +1570,8 @@
       "id": "Tanygnathus sumatranus",
       "latitude": "5.59",
       "longitude": "122.27",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Tanygnathus sumatranus"
     },
@@ -1229,6 +1579,8 @@
       "id": "Tanygnathus everetti",
       "latitude": "",
       "longitude": "",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Tanygnathus everetti"
     },
@@ -1236,6 +1588,8 @@
       "id": "Eupsittula canicularis",
       "latitude": "17.22",
       "longitude": "-96.73",
+      "redlist_category": "Vulnerable",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Eupsittula canicularis"
     },
@@ -1243,6 +1597,8 @@
       "id": "Amazona bodini",
       "latitude": "7.62",
       "longitude": "-64.2",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona bodini"
     },
@@ -1250,6 +1606,8 @@
       "id": "Rhynchopsitta pachyrhyncha",
       "latitude": "26.45",
       "longitude": "-106.96",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Rhynchopsitta pachyrhyncha"
     },
@@ -1257,6 +1615,8 @@
       "id": "Eunymphicus uvaeensis",
       "latitude": "-20.57",
       "longitude": "166.57",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eunymphicus uvaeensis"
     },
@@ -1264,6 +1624,8 @@
       "id": "Loriculus exilis",
       "latitude": "-1.63",
       "longitude": "121.35",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus exilis"
     },
@@ -1271,6 +1633,8 @@
       "id": "Bolborhynchus ferrugineifrons",
       "latitude": "3.06",
       "longitude": "-76.09",
+      "redlist_category": "Vulnerable",
+      "habitat": "Grassland",
       "family": "PSITTACIDAE",
       "scientific_name": "Bolborhynchus ferrugineifrons"
     },
@@ -1278,6 +1642,8 @@
       "id": "Touit costaricensis",
       "latitude": "9.55",
       "longitude": "-83.37",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Touit costaricensis"
     },
@@ -1285,6 +1651,8 @@
       "id": "Touit stictopterus",
       "latitude": "-3.34",
       "longitude": "-78.33",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Touit stictopterus"
     },
@@ -1292,6 +1660,8 @@
       "id": "Brotogeris pyrrhoptera",
       "latitude": "-3.2",
       "longitude": "-79.9",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Brotogeris pyrrhoptera"
     },
@@ -1299,6 +1669,8 @@
       "id": "Pyrilia pyrilia",
       "latitude": "7.59",
       "longitude": "-74.11",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrilia pyrilia"
     },
@@ -1306,6 +1678,8 @@
       "id": "Hapalopsittaca amazonina",
       "latitude": "4.83",
       "longitude": "-74.05",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Hapalopsittaca amazonina"
     },
@@ -1313,6 +1687,8 @@
       "id": "Hapalopsittaca fuertesi",
       "latitude": "4.48",
       "longitude": "-75.55",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Hapalopsittaca fuertesi"
     },
@@ -1320,6 +1696,8 @@
       "id": "Pyrrhura albipectus",
       "latitude": "-3.98",
       "longitude": "-78.72",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura albipectus"
     },
@@ -1327,6 +1705,8 @@
       "id": "Psittacara erythrogenys",
       "latitude": "-2.95",
       "longitude": "-80",
+      "redlist_category": "Near Threatened",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara erythrogenys"
     },
@@ -1334,6 +1714,8 @@
       "id": "Psittacara frontatus",
       "latitude": "-10.49",
       "longitude": "-76.29",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacara frontatus"
     },
@@ -1341,6 +1723,8 @@
       "id": "Ara rubrogenys",
       "latitude": "-18.35",
       "longitude": "-64.86",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Ara rubrogenys"
     },
@@ -1348,6 +1732,8 @@
       "id": "Ara glaucogularis",
       "latitude": "-14.28",
       "longitude": "-65.21",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Ara glaucogularis"
     },
@@ -1355,6 +1741,8 @@
       "id": "Primolius couloni",
       "latitude": "-10.73",
       "longitude": "-71.26",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Primolius couloni"
     },
@@ -1362,6 +1750,8 @@
       "id": "Amazona barbadensis",
       "latitude": "11.17",
       "longitude": "-67.94",
+      "redlist_category": "Near Threatened",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona barbadensis"
     },
@@ -1369,6 +1759,8 @@
       "id": "Pyrrhura pfrimeri",
       "latitude": "-13.49",
       "longitude": "-46.66",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura pfrimeri"
     },
@@ -1376,6 +1768,8 @@
       "id": "Vini peruviana",
       "latitude": "-15.3",
       "longitude": "-148.17",
+      "redlist_category": "Vulnerable",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Vini peruviana"
     },
@@ -1383,6 +1777,8 @@
       "id": "Lorius chlorocercus",
       "latitude": "-9.75",
       "longitude": "160.84",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Lorius chlorocercus"
     },
@@ -1390,6 +1786,8 @@
       "id": "Loriculus pusillus",
       "latitude": "-7.44",
       "longitude": "109.66",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus pusillus"
     },
@@ -1397,6 +1795,8 @@
       "id": "Enicognathus leptorhynchus",
       "latitude": "-38.92",
       "longitude": "-72.64",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Enicognathus leptorhynchus"
     },
@@ -1404,6 +1804,8 @@
       "id": "Myiopsitta luchsi",
       "latitude": "-17.51",
       "longitude": "-65.94",
+      "redlist_category": "Near Threatened",
+      "habitat": "Human Modified",
       "family": "PSITTACIDAE",
       "scientific_name": "Myiopsitta luchsi"
     },
@@ -1411,6 +1813,8 @@
       "id": "Aratinga auricapillus",
       "latitude": "-17.83",
       "longitude": "-43.47",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Aratinga auricapillus"
     },
@@ -1418,6 +1822,8 @@
       "id": "Pyrrhura perlata",
       "latitude": "-9.85",
       "longitude": "-58.91",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura perlata"
     },
@@ -1425,6 +1831,8 @@
       "id": "Pyrrhura devillei",
       "latitude": "-20.57",
       "longitude": "-57.03",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura devillei"
     },
@@ -1432,6 +1840,8 @@
       "id": "Alipiopsitta xanthops",
       "latitude": "-14.14",
       "longitude": "-49.2",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Alipiopsitta xanthops"
     },
@@ -1439,6 +1849,8 @@
       "id": "Triclaria malachitacea",
       "latitude": "-27.08",
       "longitude": "-49.68",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Triclaria malachitacea"
     },
@@ -1446,6 +1858,8 @@
       "id": "Touit huetii",
       "latitude": "-4.77",
       "longitude": "-61.57",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Touit huetii"
     },
@@ -1453,6 +1867,8 @@
       "id": "Pyrrhura snethlageae",
       "latitude": "-9.68",
       "longitude": "-61.49",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura snethlageae"
     },
@@ -1460,6 +1876,8 @@
       "id": "Vini kuhlii",
       "latitude": "-20.59",
       "longitude": "-156.92",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Vini kuhlii"
     },
@@ -1467,6 +1885,8 @@
       "id": "Pionites leucogaster",
       "latitude": "-7.59",
       "longitude": "-54.91",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionites leucogaster"
     },
@@ -1474,6 +1894,8 @@
       "id": "Touit melanonotus",
       "latitude": "-22.92",
       "longitude": "-44.66",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Touit melanonotus"
     },
@@ -1481,6 +1903,8 @@
       "id": "Pyrilia barrabandi",
       "latitude": "-4.55",
       "longitude": "-67.41",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrilia barrabandi"
     },
@@ -1488,6 +1912,8 @@
       "id": "Pyrilia caica",
       "latitude": "2.63",
       "longitude": "-57.6",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrilia caica"
     },
@@ -1495,6 +1921,8 @@
       "id": "Pyrilia aurantiocephala",
       "latitude": "-6.51",
       "longitude": "-56.33",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrilia aurantiocephala"
     },
@@ -1502,6 +1930,8 @@
       "id": "Pyrilia vulturina",
       "latitude": "-4.9",
       "longitude": "-53.27",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrilia vulturina"
     },
@@ -1509,6 +1939,8 @@
       "id": "Amazona festiva",
       "latitude": "-2.62",
       "longitude": "-62.48",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona festiva"
     },
@@ -1516,6 +1948,8 @@
       "id": "Amazona tucumana",
       "latitude": "-23",
       "longitude": "-64.39",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona tucumana"
     },
@@ -1523,6 +1957,8 @@
       "id": "Amazona pretrei",
       "latitude": "-28.85",
       "longitude": "-52.03",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona pretrei"
     },
@@ -1530,6 +1966,8 @@
       "id": "Amazona farinosa",
       "latitude": "-3.6",
       "longitude": "-63.4",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona farinosa"
     },
@@ -1537,6 +1975,8 @@
       "id": "Amazona kawalli",
       "latitude": "-6.04",
       "longitude": "-61.12",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona kawalli"
     },
@@ -1544,6 +1984,8 @@
       "id": "Pionites xanthurus",
       "latitude": "-6.17",
       "longitude": "-64.75",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionites xanthurus"
     },
@@ -1551,6 +1993,8 @@
       "id": "Trichoglossus rosenbergii",
       "latitude": "-0.94",
       "longitude": "135.89",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus rosenbergii"
     },
@@ -1558,6 +2002,8 @@
       "id": "Pyrrhura lepida",
       "latitude": "-3.9",
       "longitude": "-48.94",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura lepida"
     },
@@ -1565,6 +2011,8 @@
       "id": "Pyrrhura amazonum",
       "latitude": "-5.02",
       "longitude": "-51.67",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura amazonum"
     },
@@ -1572,6 +2020,8 @@
       "id": "Eos cyanogenia",
       "latitude": "-0.97",
       "longitude": "135.76",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eos cyanogenia"
     },
@@ -1579,6 +2029,8 @@
       "id": "Zanda baudinii",
       "latitude": "-34.17",
       "longitude": "116.7",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Zanda baudinii"
     },
@@ -1586,6 +2038,8 @@
       "id": "Callocephalon fimbriatum",
       "latitude": "-35.75",
       "longitude": "147.35",
+      "redlist_category": "Vulnerable",
+      "habitat": "Woodland",
       "family": "CACATUIDAE",
       "scientific_name": "Callocephalon fimbriatum"
     },
@@ -1593,6 +2047,8 @@
       "id": "Micropsitta geelvinkiana",
       "latitude": "-0.93",
       "longitude": "135.76",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Micropsitta geelvinkiana"
     },
@@ -1600,6 +2056,8 @@
       "id": "Neophema chrysostoma",
       "latitude": "-39.43",
       "longitude": "145.17",
+      "redlist_category": "Vulnerable",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Neophema chrysostoma"
     },
@@ -1607,6 +2065,8 @@
       "id": "Cyclopsitta coxeni",
       "latitude": "-26.37",
       "longitude": "152.13",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyclopsitta coxeni"
     },
@@ -1614,6 +2074,8 @@
       "id": "Coracopsis sibilans",
       "latitude": "-11.87",
       "longitude": "43.63",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Coracopsis sibilans"
     },
@@ -1621,6 +2083,8 @@
       "id": "Calyptorhynchus lathami",
       "latitude": "-29.86",
       "longitude": "149.61",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Calyptorhynchus lathami"
     },
@@ -1628,6 +2092,8 @@
       "id": "Pezoporus occidentalis",
       "latitude": "-22.51",
       "longitude": "127.67",
+      "redlist_category": "Critically Endangered",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Pezoporus occidentalis"
     },
@@ -1635,6 +2101,8 @@
       "id": "Psephotellus chrysopterygius",
       "latitude": "-15.62",
       "longitude": "143.47",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psephotellus chrysopterygius"
     },
@@ -1642,6 +2110,8 @@
       "id": "Vini stepheni",
       "latitude": "-24.36",
       "longitude": "-128.32",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Vini stepheni"
     },
@@ -1649,6 +2119,8 @@
       "id": "Zanda latirostris",
       "latitude": "-32.28",
       "longitude": "118.12",
+      "redlist_category": "Endangered",
+      "habitat": "Shrubland",
       "family": "CACATUIDAE",
       "scientific_name": "Zanda latirostris"
     },
@@ -1656,6 +2128,8 @@
       "id": "Polytelis alexandrae",
       "latitude": "-24.39",
       "longitude": "129.47",
+      "redlist_category": "Near Threatened",
+      "habitat": "Desert",
       "family": "PSITTACIDAE",
       "scientific_name": "Polytelis alexandrae"
     },
@@ -1663,6 +2137,8 @@
       "id": "Cyanoramphus unicolor",
       "latitude": "-49.69",
       "longitude": "178.8",
+      "redlist_category": "Vulnerable",
+      "habitat": "Grassland",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyanoramphus unicolor"
     },
@@ -1670,6 +2146,8 @@
       "id": "Cyanoramphus forbesi",
       "latitude": "-44.27",
       "longitude": "-176.3",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyanoramphus forbesi"
     },
@@ -1677,6 +2155,8 @@
       "id": "Cyanoramphus auriceps",
       "latitude": "-43.04",
       "longitude": "170.77",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyanoramphus auriceps"
     },
@@ -1684,6 +2164,8 @@
       "id": "Nestor meridionalis",
       "latitude": "-41.88",
       "longitude": "172.02",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "STRIGOPIDAE",
       "scientific_name": "Nestor meridionalis"
     },
@@ -1691,6 +2173,8 @@
       "id": "Loriculus tener",
       "latitude": "-5.16",
       "longitude": "150.99",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus tener"
     },
@@ -1698,6 +2182,8 @@
       "id": "Cacatua ophthalmica",
       "latitude": "-5.47",
       "longitude": "150.65",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua ophthalmica"
     },
@@ -1705,6 +2191,8 @@
       "id": "Trichoglossus rubiginosus",
       "latitude": "6.88",
       "longitude": "158.22",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus rubiginosus"
     },
@@ -1712,6 +2200,8 @@
       "id": "Pezoporus wallicus",
       "latitude": "-36.15",
       "longitude": "146.08",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Pezoporus wallicus"
     },
@@ -1719,6 +2209,8 @@
       "id": "Touit surdus",
       "latitude": "-16.07",
       "longitude": "-40.97",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Touit surdus"
     },
@@ -1726,6 +2218,8 @@
       "id": "Probosciger aterrimus",
       "latitude": "-5.71",
       "longitude": "140.95",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Probosciger aterrimus"
     },
@@ -1733,6 +2227,8 @@
       "id": "Psittinus abbotti",
       "latitude": "2.63",
       "longitude": "96.07",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittinus abbotti"
     },
@@ -1740,6 +2236,8 @@
       "id": "Psittinus cyanurus",
       "latitude": "1.09",
       "longitude": "108.22",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittinus cyanurus"
     },
@@ -1747,6 +2245,8 @@
       "id": "Prioniturus flavicans",
       "latitude": "0.78",
       "longitude": "123.41",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus flavicans"
     },
@@ -1754,6 +2254,8 @@
       "id": "Charmosyna margarethae",
       "latitude": "-8.16",
       "longitude": "158.57",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna margarethae"
     },
@@ -1761,6 +2263,8 @@
       "id": "Charmosyna meeki",
       "latitude": "-7.33",
       "longitude": "157.35",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna meeki"
     },
@@ -1768,6 +2272,8 @@
       "id": "Prosopeia personata",
       "latitude": "-17.83",
       "longitude": "177.97",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prosopeia personata"
     },
@@ -1775,6 +2281,8 @@
       "id": "Prosopeia splendens",
       "latitude": "-19.03",
       "longitude": "178.25",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prosopeia splendens"
     },
@@ -1782,6 +2290,8 @@
       "id": "Charmosyna multistriata",
       "latitude": "-5.76",
       "longitude": "140.92",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna multistriata"
     },
@@ -1789,6 +2299,8 @@
       "id": "Hapalopsittaca pyrrhops",
       "latitude": "-3.17",
       "longitude": "-78.87",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Hapalopsittaca pyrrhops"
     },
@@ -1796,6 +2308,8 @@
       "id": "Brotogeris sanctithomae",
       "latitude": "-6.51",
       "longitude": "-65.84",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Brotogeris sanctithomae"
     },
@@ -1803,6 +2317,8 @@
       "id": "Himalayapsitta roseata",
       "latitude": "18.45",
       "longitude": "100.6",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Himalayapsitta roseata"
     },
@@ -1810,6 +2326,8 @@
       "id": "Cacatua moluccensis",
       "latitude": "-3.22",
       "longitude": "129.4",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua moluccensis"
     },
@@ -1817,6 +2335,8 @@
       "id": "Lorius domicella",
       "latitude": "-3.18",
       "longitude": "129.22",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Lorius domicella"
     },
@@ -1824,6 +2344,8 @@
       "id": "Aprosmictus jonquillaceus",
       "latitude": "-9.16",
       "longitude": "125.13",
+      "redlist_category": "Near Threatened",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Aprosmictus jonquillaceus"
     },
@@ -1831,6 +2353,8 @@
       "id": "Eunymphicus cornutus",
       "latitude": "-21.43",
       "longitude": "165.66",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eunymphicus cornutus"
     },
@@ -1838,6 +2362,8 @@
       "id": "Prioniturus mindorensis",
       "latitude": "12.96",
       "longitude": "121.07",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus mindorensis"
     },
@@ -1845,6 +2371,8 @@
       "id": "Zanda funerea",
       "latitude": "-31.7",
       "longitude": "147.39",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "CACATUIDAE",
       "scientific_name": "Zanda funerea"
     },
@@ -1852,6 +2380,8 @@
       "id": "Calyptorhynchus banksii",
       "latitude": "-22.18",
       "longitude": "136.11",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "CACATUIDAE",
       "scientific_name": "Calyptorhynchus banksii"
     },
@@ -1859,6 +2389,8 @@
       "id": "Cacatua tenuirostris",
       "latitude": "-35.63",
       "longitude": "143.99",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua tenuirostris"
     },
@@ -1866,6 +2398,8 @@
       "id": "Cacatua pastinator",
       "latitude": "-30.34",
       "longitude": "116.67",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "CACATUIDAE",
       "scientific_name": "Cacatua pastinator"
     },
@@ -1873,6 +2407,8 @@
       "id": "Alisterus scapularis",
       "latitude": "-29.51",
       "longitude": "149.3",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Alisterus scapularis"
     },
@@ -1880,6 +2416,8 @@
       "id": "Barnardius zonarius",
       "latitude": "-27.28",
       "longitude": "133.19",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Barnardius zonarius"
     },
@@ -1887,6 +2425,8 @@
       "id": "Glossopsitta concinna",
       "latitude": "-34.83",
       "longitude": "146.25",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Glossopsitta concinna"
     },
@@ -1894,6 +2434,8 @@
       "id": "Glossopsitta porphyrocephala",
       "latitude": "-33.42",
       "longitude": "130.5",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Glossopsitta porphyrocephala"
     },
@@ -1901,6 +2443,8 @@
       "id": "Glossopsitta pusilla",
       "latitude": "-31.2",
       "longitude": "148.58",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Glossopsitta pusilla"
     },
@@ -1908,6 +2452,8 @@
       "id": "Neophema elegans",
       "latitude": "-31.99",
       "longitude": "127.74",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Neophema elegans"
     },
@@ -1915,6 +2461,8 @@
       "id": "Neophema petrophila",
       "latitude": "-33.43",
       "longitude": "126.1",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Neophema petrophila"
     },
@@ -1922,6 +2470,8 @@
       "id": "Neophema pulchella",
       "latitude": "-32.38",
       "longitude": "148.84",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Neophema pulchella"
     },
@@ -1929,6 +2479,8 @@
       "id": "Neophema splendida",
       "latitude": "-30.2",
       "longitude": "132.78",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Neophema splendida"
     },
@@ -1936,6 +2488,8 @@
       "id": "Neopsephotus bourkii",
       "latitude": "-26.91",
       "longitude": "129.19",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Neopsephotus bourkii"
     },
@@ -1943,6 +2497,8 @@
       "id": "Northiella haematogaster",
       "latitude": "-30.59",
       "longitude": "141.95",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Northiella haematogaster"
     },
@@ -1950,6 +2506,8 @@
       "id": "Platycercus adscitus",
       "latitude": "-23.8",
       "longitude": "146.69",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Platycercus adscitus"
     },
@@ -1957,6 +2515,8 @@
       "id": "Platycercus caledonicus",
       "latitude": "-41.94",
       "longitude": "146.59",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Platycercus caledonicus"
     },
@@ -1964,6 +2524,8 @@
       "id": "Platycercus eximius",
       "latitude": "-33.61",
       "longitude": "147.21",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Platycercus eximius"
     },
@@ -1971,6 +2533,8 @@
       "id": "Platycercus icterotis",
       "latitude": "-32.8",
       "longitude": "118.49",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Platycercus icterotis"
     },
@@ -1978,6 +2542,8 @@
       "id": "Platycercus venustus",
       "latitude": "-15.86",
       "longitude": "131.32",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Platycercus venustus"
     },
@@ -1985,6 +2551,8 @@
       "id": "Polytelis anthopeplus",
       "latitude": "-32.6",
       "longitude": "124.94",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Polytelis anthopeplus"
     },
@@ -1992,6 +2560,8 @@
       "id": "Psephotellus dissimilis",
       "latitude": "-14.54",
       "longitude": "133.06",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psephotellus dissimilis"
     },
@@ -1999,6 +2569,8 @@
       "id": "Psephotellus varius",
       "latitude": "-28.79",
       "longitude": "131.89",
+      "redlist_category": "Least Concern",
+      "habitat": "Grassland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psephotellus varius"
     },
@@ -2006,6 +2578,8 @@
       "id": "Psephotus haematonotus",
       "latitude": "-31.71",
       "longitude": "145.11",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psephotus haematonotus"
     },
@@ -2013,6 +2587,8 @@
       "id": "Psitteuteles versicolor",
       "latitude": "-16.98",
       "longitude": "135.13",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psitteuteles versicolor"
     },
@@ -2020,6 +2596,8 @@
       "id": "Purpureicephalus spurius",
       "latitude": "-33.56",
       "longitude": "117.94",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Purpureicephalus spurius"
     },
@@ -2027,6 +2605,8 @@
       "id": "Trichoglossus moluccanus",
       "latitude": "-26.88",
       "longitude": "146.33",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus moluccanus"
     },
@@ -2034,6 +2614,8 @@
       "id": "Trichoglossus rubritorquis",
       "latitude": "-15.96",
       "longitude": "130.73",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus rubritorquis"
     },
@@ -2041,6 +2623,8 @@
       "id": "Prioniturus luconensis",
       "latitude": "16.24",
       "longitude": "121.19",
+      "redlist_category": "Endangered",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus luconensis"
     },
@@ -2048,6 +2632,8 @@
       "id": "Prioniturus platenae",
       "latitude": "9.95",
       "longitude": "118.71",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus platenae"
     },
@@ -2055,6 +2641,8 @@
       "id": "Psittacula derbiana",
       "latitude": "28.04",
       "longitude": "97.99",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacula derbiana"
     },
@@ -2062,6 +2650,8 @@
       "id": "Belocercus longicaudus",
       "latitude": "0.86",
       "longitude": "110.86",
+      "redlist_category": "Vulnerable",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Belocercus longicaudus"
     },
@@ -2069,6 +2659,8 @@
       "id": "Prioniturus waterstradti",
       "latitude": "7.34",
       "longitude": "125.07",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus waterstradti"
     },
@@ -2076,6 +2668,8 @@
       "id": "Prioniturus montanus",
       "latitude": "17.26",
       "longitude": "121.26",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus montanus"
     },
@@ -2083,6 +2677,8 @@
       "id": "Lorius albidinucha",
       "latitude": "-4.11",
       "longitude": "152.69",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Lorius albidinucha"
     },
@@ -2090,6 +2686,8 @@
       "id": "Psittacula alexandri",
       "latitude": "19.3",
       "longitude": "99.68",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacula alexandri"
     },
@@ -2097,6 +2695,8 @@
       "id": "Himalayapsitta finschii",
       "latitude": "20.39",
       "longitude": "99.59",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Himalayapsitta finschii"
     },
@@ -2104,6 +2704,8 @@
       "id": "Trichoglossus iris",
       "latitude": "-9.13",
       "longitude": "125.21",
+      "redlist_category": "Near Threatened",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus iris"
     },
@@ -2111,6 +2713,8 @@
       "id": "Loriculus sclateri",
       "latitude": "-1.71",
       "longitude": "124.42",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus sclateri"
     },
@@ -2118,6 +2722,8 @@
       "id": "Touit purpuratus",
       "latitude": "-0.92",
       "longitude": "-60.92",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Touit purpuratus"
     },
@@ -2125,6 +2731,8 @@
       "id": "Aprosmictus erythropterus",
       "latitude": "-21.4",
       "longitude": "141.37",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Aprosmictus erythropterus"
     },
@@ -2132,6 +2740,8 @@
       "id": "Eupsittula cactorum",
       "latitude": "-9.81",
       "longitude": "-42.06",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Eupsittula cactorum"
     },
@@ -2139,6 +2749,8 @@
       "id": "Eupsittula aurea",
       "latitude": "-12.63",
       "longitude": "-50.06",
+      "redlist_category": "Least Concern",
+      "habitat": "Grassland",
       "family": "PSITTACIDAE",
       "scientific_name": "Eupsittula aurea"
     },
@@ -2146,6 +2758,8 @@
       "id": "Diopsittaca cumanensis",
       "latitude": "-12.83",
       "longitude": "-48.42",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Diopsittaca cumanensis"
     },
@@ -2153,6 +2767,8 @@
       "id": "Psilopsiagon aurifrons",
       "latitude": "-20.19",
       "longitude": "-69.18",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psilopsiagon aurifrons"
     },
@@ -2160,6 +2776,8 @@
       "id": "Psilopsiagon aymara",
       "latitude": "-24.98",
       "longitude": "-66.13",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psilopsiagon aymara"
     },
@@ -2167,6 +2785,8 @@
       "id": "Chalcopsitta atra",
       "latitude": "-1.83",
       "longitude": "132.8",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Chalcopsitta atra"
     },
@@ -2174,6 +2794,8 @@
       "id": "Primolius auricollis",
       "latitude": "-16.31",
       "longitude": "-60.21",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Primolius auricollis"
     },
@@ -2181,6 +2803,8 @@
       "id": "Pseudeos fuscata",
       "latitude": "-5.35",
       "longitude": "140.87",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pseudeos fuscata"
     },
@@ -2188,6 +2812,8 @@
       "id": "Orthopsittaca manilatus",
       "latitude": "-6.22",
       "longitude": "-58.81",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Orthopsittaca manilatus"
     },
@@ -2195,6 +2821,8 @@
       "id": "Pionus maximiliani",
       "latitude": "-17.7",
       "longitude": "-50.03",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionus maximiliani"
     },
@@ -2202,6 +2830,8 @@
       "id": "Loriculus beryllinus",
       "latitude": "6.83",
       "longitude": "80.63",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus beryllinus"
     },
@@ -2209,6 +2839,8 @@
       "id": "Loriculus philippensis",
       "latitude": "11.83",
       "longitude": "123.09",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus philippensis"
     },
@@ -2216,6 +2848,8 @@
       "id": "Pionites xanthomerius",
       "latitude": "-10.19",
       "longitude": "-68.87",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionites xanthomerius"
     },
@@ -2223,6 +2857,8 @@
       "id": "Trichoglossus capistratus",
       "latitude": "-9.32",
       "longitude": "123.86",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus capistratus"
     },
@@ -2230,6 +2866,8 @@
       "id": "Poicephalus rufiventris",
       "latitude": "3.99",
       "longitude": "41.3",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus rufiventris"
     },
@@ -2237,6 +2875,8 @@
       "id": "Poicephalus meyeri",
       "latitude": "-5.66",
       "longitude": "27.19",
+      "redlist_category": "Least Concern",
+      "habitat": "Grassland",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus meyeri"
     },
@@ -2244,6 +2884,8 @@
       "id": "Psittacella lorentzi",
       "latitude": "-4.16",
       "longitude": "138.44",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacella lorentzi"
     },
@@ -2251,6 +2893,8 @@
       "id": "Psittacella picta",
       "latitude": "-6.28",
       "longitude": "144.42",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacella picta"
     },
@@ -2258,6 +2902,8 @@
       "id": "Touit batavicus",
       "latitude": "5.65",
       "longitude": "-57.61",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Touit batavicus"
     },
@@ -2265,6 +2911,8 @@
       "id": "Nannopsittaca panychlora",
       "latitude": "5",
       "longitude": "-62.48",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Nannopsittaca panychlora"
     },
@@ -2272,6 +2920,8 @@
       "id": "Brotogeris chrysoptera",
       "latitude": "-1.77",
       "longitude": "-56.37",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Brotogeris chrysoptera"
     },
@@ -2279,6 +2929,8 @@
       "id": "Pyrrhura roseifrons",
       "latitude": "-9.39",
       "longitude": "-71.96",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura roseifrons"
     },
@@ -2286,6 +2938,8 @@
       "id": "Tanygnathus megalorynchos",
       "latitude": "-4.07",
       "longitude": "126.15",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Tanygnathus megalorynchos"
     },
@@ -2293,6 +2947,8 @@
       "id": "Loriculus amabilis",
       "latitude": "0.87",
       "longitude": "128",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus amabilis"
     },
@@ -2300,6 +2956,8 @@
       "id": "Psittacella brehmii",
       "latitude": "-5.35",
       "longitude": "142.02",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacella brehmii"
     },
@@ -2307,6 +2965,8 @@
       "id": "Forpus coelestis",
       "latitude": "-3.77",
       "longitude": "-79.9",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Forpus coelestis"
     },
@@ -2314,6 +2974,8 @@
       "id": "Forpus modestus",
       "latitude": "-5.05",
       "longitude": "-66.16",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Forpus modestus"
     },
@@ -2321,6 +2983,8 @@
       "id": "Bolbopsittacus lunulatus",
       "latitude": "12.06",
       "longitude": "123.17",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Bolbopsittacus lunulatus"
     },
@@ -2328,6 +2992,8 @@
       "id": "Psittaculirostris salvadorii",
       "latitude": "-2.61",
       "longitude": "138.29",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittaculirostris salvadorii"
     },
@@ -2335,6 +3001,8 @@
       "id": "Pyrrhura parvifrons",
       "latitude": "-5.94",
       "longitude": "-75.74",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura parvifrons"
     },
@@ -2342,6 +3010,8 @@
       "id": "Psittaculirostris edwardsii",
       "latitude": "-4.72",
       "longitude": "144.11",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittaculirostris edwardsii"
     },
@@ -2349,6 +3019,8 @@
       "id": "Brotogeris cyanoptera",
       "latitude": "-4.7",
       "longitude": "-70.91",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Brotogeris cyanoptera"
     },
@@ -2356,6 +3028,8 @@
       "id": "Geoffroyus simplex",
       "latitude": "-5.54",
       "longitude": "142.35",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Geoffroyus simplex"
     },
@@ -2363,6 +3037,8 @@
       "id": "Psittacella madaraszi",
       "latitude": "-5.73",
       "longitude": "142.66",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacella madaraszi"
     },
@@ -2370,6 +3046,8 @@
       "id": "Brotogeris tirica",
       "latitude": "-20.68",
       "longitude": "-43.56",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Brotogeris tirica"
     },
@@ -2377,6 +3055,8 @@
       "id": "Psittacella modesta",
       "latitude": "-4.5",
       "longitude": "139.77",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittacella modesta"
     },
@@ -2384,6 +3064,8 @@
       "id": "Graydidascalus brachyurus",
       "latitude": "-3.18",
       "longitude": "-64.99",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Graydidascalus brachyurus"
     },
@@ -2391,6 +3073,8 @@
       "id": "Hapalopsittaca melanotis",
       "latitude": "-14.59",
       "longitude": "-69.57",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Hapalopsittaca melanotis"
     },
@@ -2398,6 +3082,8 @@
       "id": "Alisterus amboinensis",
       "latitude": "-1.9",
       "longitude": "131.24",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Alisterus amboinensis"
     },
@@ -2405,6 +3091,8 @@
       "id": "Pyrilia pulchra",
       "latitude": "2.28",
       "longitude": "-78.2",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrilia pulchra"
     },
@@ -2412,6 +3100,8 @@
       "id": "Alisterus chloropterus",
       "latitude": "-5.43",
       "longitude": "142.23",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Alisterus chloropterus"
     },
@@ -2419,6 +3109,8 @@
       "id": "Oreopsittacus arfaki",
       "latitude": "-4.85",
       "longitude": "140.71",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Oreopsittacus arfaki"
     },
@@ -2426,6 +3118,8 @@
       "id": "Neopsittacus pullicauda",
       "latitude": "-5.02",
       "longitude": "141",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Neopsittacus pullicauda"
     },
@@ -2433,6 +3127,8 @@
       "id": "Neopsittacus musschenbroekii",
       "latitude": "-5.39",
       "longitude": "142.01",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Neopsittacus musschenbroekii"
     },
@@ -2440,6 +3136,8 @@
       "id": "Aratinga weddellii",
       "latitude": "-8.1",
       "longitude": "-68.84",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Aratinga weddellii"
     },
@@ -2447,6 +3145,8 @@
       "id": "Charmosyna rubrigularis",
       "latitude": "-5.09",
       "longitude": "151.27",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna rubrigularis"
     },
@@ -2454,6 +3154,8 @@
       "id": "Psittaculirostris cervicalis",
       "latitude": "-7.59",
       "longitude": "144.77",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittaculirostris cervicalis"
     },
@@ -2461,6 +3163,8 @@
       "id": "Psittaculirostris godmani",
       "latitude": "-6.96",
       "longitude": "140.1",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittaculirostris godmani"
     },
@@ -2468,6 +3172,8 @@
       "id": "Forpus spengeli",
       "latitude": "10.59",
       "longitude": "-74.38",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Forpus spengeli"
     },
@@ -2475,6 +3181,8 @@
       "id": "Charmosyna josefinae",
       "latitude": "-3.93",
       "longitude": "138.55",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna josefinae"
     },
@@ -2482,6 +3190,8 @@
       "id": "Charmosyna pulchella",
       "latitude": "-5.03",
       "longitude": "141.51",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna pulchella"
     },
@@ -2489,6 +3199,8 @@
       "id": "Charmosyna rubronotata",
       "latitude": "-2.9",
       "longitude": "138.32",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna rubronotata"
     },
@@ -2496,6 +3208,8 @@
       "id": "Forpus xanthopterygius",
       "latitude": "-13.5",
       "longitude": "-53.48",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Forpus xanthopterygius"
     },
@@ -2503,6 +3217,8 @@
       "id": "Charmosyna placentis",
       "latitude": "-5.14",
       "longitude": "141.04",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna placentis"
     },
@@ -2510,6 +3226,8 @@
       "id": "Charmosyna wilhelminae",
       "latitude": "-5.78",
       "longitude": "142.71",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna wilhelminae"
     },
@@ -2517,6 +3235,8 @@
       "id": "Prioniturus discurus",
       "latitude": "9.37",
       "longitude": "124.25",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Prioniturus discurus"
     },
@@ -2524,6 +3244,8 @@
       "id": "Micropsitta meeki",
       "latitude": "-2",
       "longitude": "147.41",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Micropsitta meeki"
     },
@@ -2531,6 +3253,8 @@
       "id": "Micropsitta pusio",
       "latitude": "-4.98",
       "longitude": "143.8",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Micropsitta pusio"
     },
@@ -2538,6 +3262,8 @@
       "id": "Pyrrhura rhodocephala",
       "latitude": "8.7",
       "longitude": "-71.07",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura rhodocephala"
     },
@@ -2545,6 +3271,8 @@
       "id": "Micropsitta keiensis",
       "latitude": "-6.06",
       "longitude": "138.23",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Micropsitta keiensis"
     },
@@ -2552,6 +3280,8 @@
       "id": "Bolborhynchus orbygnesius",
       "latitude": "-13.53",
       "longitude": "-71.62",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Bolborhynchus orbygnesius"
     },
@@ -2559,6 +3289,8 @@
       "id": "Micropsitta finschii",
       "latitude": "-7.2",
       "longitude": "157.03",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Micropsitta finschii"
     },
@@ -2566,6 +3298,8 @@
       "id": "Micropsitta bruijnii",
       "latitude": "-5.53",
       "longitude": "143.2",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Micropsitta bruijnii"
     },
@@ -2573,6 +3307,8 @@
       "id": "Pyrrhura peruviana",
       "latitude": "-5.72",
       "longitude": "-77.03",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura peruviana"
     },
@@ -2580,6 +3316,8 @@
       "id": "Pyrrhura egregia",
       "latitude": "5.54",
       "longitude": "-61.28",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pyrrhura egregia"
     },
@@ -2587,6 +3325,8 @@
       "id": "Nicopsitta columboides",
       "latitude": "13.16",
       "longitude": "75.92",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Nicopsitta columboides"
     },
@@ -2594,6 +3334,8 @@
       "id": "Himalayapsitta cyanocephala",
       "latitude": "21.73",
       "longitude": "78.9",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Himalayapsitta cyanocephala"
     },
@@ -2601,6 +3343,8 @@
       "id": "Eos squamata",
       "latitude": "0.33",
       "longitude": "128.46",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Eos squamata"
     },
@@ -2608,6 +3352,8 @@
       "id": "Chalcopsitta cardinalis",
       "latitude": "-7.95",
       "longitude": "158.12",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Chalcopsitta cardinalis"
     },
@@ -2615,6 +3361,8 @@
       "id": "Chalcopsitta scintillata",
       "latitude": "-6.86",
       "longitude": "141.05",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Chalcopsitta scintillata"
     },
@@ -2622,6 +3370,8 @@
       "id": "Pionus seniloides",
       "latitude": "1.42",
       "longitude": "-76.1",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionus seniloides"
     },
@@ -2629,6 +3379,8 @@
       "id": "Cyclopsitta amabilis",
       "latitude": "-6.68",
       "longitude": "146.64",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyclopsitta amabilis"
     },
@@ -2636,6 +3388,8 @@
       "id": "Cyclopsitta melanogenia",
       "latitude": "-6.99",
       "longitude": "141.54",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyclopsitta melanogenia"
     },
@@ -2643,6 +3397,8 @@
       "id": "Cyclopsitta gulielmitertii",
       "latitude": "-1.4",
       "longitude": "132.44",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyclopsitta gulielmitertii"
     },
@@ -2650,6 +3406,8 @@
       "id": "Charmosyna stellae",
       "latitude": "-5.5",
       "longitude": "142.28",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna stellae"
     },
@@ -2657,6 +3415,8 @@
       "id": "Himalayapsitta himalayana",
       "latitude": "30.15",
       "longitude": "80",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Himalayapsitta himalayana"
     },
@@ -2664,6 +3424,8 @@
       "id": "Alexandrinus krameri",
       "latitude": "17.19",
       "longitude": "46.52",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Alexandrinus krameri"
     },
@@ -2671,6 +3433,8 @@
       "id": "Lorius hypoinochrous",
       "latitude": "-6.31",
       "longitude": "150.63",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Lorius hypoinochrous"
     },
@@ -2678,6 +3442,8 @@
       "id": "Psittaculirostris desmarestii",
       "latitude": "-1.91",
       "longitude": "132.95",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Psittaculirostris desmarestii"
     },
@@ -2685,6 +3451,8 @@
       "id": "Phigys solitarius",
       "latitude": "-17.45",
       "longitude": "164.25",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Phigys solitarius"
     },
@@ -2692,6 +3460,8 @@
       "id": "Trichoglossus ornatus",
       "latitude": "-2.13",
       "longitude": "121.18",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus ornatus"
     },
@@ -2699,6 +3469,8 @@
       "id": "Cyclopsitta diophthalma",
       "latitude": "-5.43",
       "longitude": "140.3",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyclopsitta diophthalma"
     },
@@ -2706,6 +3478,8 @@
       "id": "Trichoglossus meyeri",
       "latitude": "-1.75",
       "longitude": "120.88",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Trichoglossus meyeri"
     },
@@ -2713,6 +3487,8 @@
       "id": "Pionus sordidus",
       "latitude": "-0.52",
       "longitude": "-71.86",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Pionus sordidus"
     },
@@ -2720,6 +3496,8 @@
       "id": "Loriculus vernalis",
       "latitude": "18.78",
       "longitude": "97.17",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus vernalis"
     },
@@ -2727,6 +3505,8 @@
       "id": "Charmosyna papou",
       "latitude": "-1.01",
       "longitude": "133.26",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Charmosyna papou"
     },
@@ -2734,6 +3514,8 @@
       "id": "Loriculus aurantiifrons",
       "latitude": "-4.99",
       "longitude": "141.16",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus aurantiifrons"
     },
@@ -2741,6 +3523,8 @@
       "id": "Deroptyus accipitrinus",
       "latitude": "-2.14",
       "longitude": "-58.68",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Deroptyus accipitrinus"
     },
@@ -2748,6 +3532,8 @@
       "id": "Loriculus stigmatus",
       "latitude": "-2.13",
       "longitude": "121.19",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Loriculus stigmatus"
     },
@@ -2755,6 +3541,8 @@
       "id": "Poicephalus flavifrons",
       "latitude": "9",
       "longitude": "37.65",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus flavifrons"
     },
@@ -2762,6 +3550,8 @@
       "id": "Poicephalus crassus",
       "latitude": "5.94",
       "longitude": "21.22",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus crassus"
     },
@@ -2769,6 +3559,8 @@
       "id": "Poicephalus gulielmi",
       "latitude": "0.83",
       "longitude": "17.59",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus gulielmi"
     },
@@ -2776,6 +3568,8 @@
       "id": "Agapornis pullarius",
       "latitude": "4.59",
       "longitude": "17.37",
+      "redlist_category": "Least Concern",
+      "habitat": "Woodland",
       "family": "PSITTACIDAE",
       "scientific_name": "Agapornis pullarius"
     },
@@ -2783,6 +3577,8 @@
       "id": "Amazona mercenarius",
       "latitude": "-3.41",
       "longitude": "-74.07",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona mercenarius"
     },
@@ -2790,6 +3586,8 @@
       "id": "Agapornis taranta",
       "latitude": "9.91",
       "longitude": "38.31",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Agapornis taranta"
     },
@@ -2797,6 +3595,8 @@
       "id": "Cyclopsitta nigrifrons",
       "latitude": "-3.55",
       "longitude": "141.48",
+      "redlist_category": "Least Concern",
+      "habitat": "Forest",
       "family": "PSITTACIDAE",
       "scientific_name": "Cyclopsitta nigrifrons"
     },
@@ -2804,6 +3604,8 @@
       "id": "Poicephalus rueppellii",
       "latitude": "-18.72",
       "longitude": "15.68",
+      "redlist_category": "Least Concern",
+      "habitat": "Shrubland",
       "family": "PSITTACIDAE",
       "scientific_name": "Poicephalus rueppellii"
     }

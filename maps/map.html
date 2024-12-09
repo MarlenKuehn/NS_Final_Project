@@ -111,7 +111,11 @@
     <div class="controls">
         <input type="file" id="json-file" accept=".json">
         <button id="edge-toggle" class="toggle-button">Show All Edges</button>
-        <button id="color-toggle" class="color-toggle">Color by Redlist Category</button>
+        <select id="color-mode-select" class="color-toggle">
+            <option value="family">Color by Family</option>
+            <option value="redlist">Color by Redlist Category</option>
+            <option value="habitat">Color by Habitat</option>
+        </select>
         <div class="info-panel">
             <div class="info-header" onclick="toggleInfo()">
                 <h3 style="margin: 0;">Map Functionality Guide</h3>
@@ -211,8 +215,9 @@
                 lat: parseFloat(node.latitude || node.lat),
                 lon: parseFloat(node.longitude || node.lon),
                 family: node.family,
-                redlist_category: node.redlist_category,  // Add redlist_category attribute
-                color: getColor(colorByFamily ? node.family : node.redlist_category)  // Set color based on mode
+                habitat: node.habitat,
+                redlist_category: node.redlist_category,
+                color: getColor(colorByFamily ? node.family : (colorByHabitat ? node.habitat : node.redlist_category))
             }));
 
             edges = data.edges.map(edge => ({
@@ -246,6 +251,71 @@
             }
         }
 
+        // Function to generate a random color
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Define color mapping for redlist categories
+        const redlistColors = {
+            'Endangered': '#FF6B6B', // Red
+            'Least Concern': '#96CEB4', // Green
+            'Near Threatened': '#FFEEAD', // Yellow
+            'Vulnerable': '#D4A5A5', // Pink
+            'Critically Endangered': '#E67E22', // Orange
+            'Extinct in the Wild': '#34495E' // Dark Gray
+        };
+
+        // Define color mapping for habitats using random colors
+        const habitatColors = new Map();
+
+        // Add state for color mode
+        let colorByFamily = true;
+        let colorByHabitat = false;
+
+        // Function to update color mode based on select value
+        function updateColorMode() {
+            const select = document.getElementById('color-mode-select');
+            const mode = select.value;
+
+            colorByFamily = mode === 'family';
+            colorByHabitat = mode === 'habitat';
+
+            displayGraph(); // Refresh the graph with the new color mode
+            updateLegend(); // Update the legend to reflect the new mode
+        }
+
+        // Add event listener for select field
+        document.getElementById('color-mode-select').addEventListener('change', updateColorMode);
+
+        // Update getColor to handle family, redlist_category, and habitat
+        function getColor(attribute) {
+            if (!attribute) return defaultColor;
+            
+            if (colorByHabitat) {
+                if (!habitatColors.has(attribute)) {
+                    habitatColors.set(attribute, getRandomColor());
+                }
+                return habitatColors.get(attribute);
+            } else if (colorByFamily) {
+                if (!familyColors.has(attribute)) {
+                    const colorPalette = [
+                        '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEEAD',
+                        '#D4A5A5', '#9B59B6', '#E67E22', '#1ABC9C', '#34495E'
+                    ];
+                    familyColors.set(attribute, colorPalette[familyColors.size % colorPalette.length]);
+                }
+                return familyColors.get(attribute);
+            } else {
+                return redlistColors[attribute] || defaultColor;
+            }
+        }
+
         // Function to display the graph on the map
         function displayGraph() {
             // Clear existing markers and lines
@@ -271,7 +341,7 @@
                     .sort();
             }
 
-            // Update createPopupContent to use the global panToNode
+            // Function to create popup content for a node
             function createPopupContent(node) {
                 const connectionCount = getConnectionCount(node.id);
                 const neighbors = getNeighborIds(node.id);
@@ -300,6 +370,14 @@
                                 <td>${node.family || 'N/A'}</td>
                             </tr>
                             <tr>
+                                <td style="padding: 3px 0"><strong>Habitat:</strong></td>
+                                <td>${node.habitat || 'N/A'}</td>
+                            </tr>
+                            <tr>
+                                <td style="padding: 3px 0"><strong>Redlist Category:</strong></td>
+                                <td>${node.redlist_category || 'N/A'}</td>
+                            </tr>
+                            <tr>
                                 <td style="padding: 3px 0"><strong>Latitude:</strong></td>
                                 <td>${node.lat.toFixed(4)}</td>
                             </tr>
@@ -324,9 +402,10 @@
             // Add nodes as circle markers
             nodes.forEach(node => {
                 if (node.lat && node.lon) {
+                    const colorAttribute = colorByFamily ? node.family : (colorByHabitat ? node.habitat : node.redlist_category);
                     const marker = L.circleMarker([node.lat, node.lon], {
                         radius: 8,
-                        fillColor: getColor(colorByFamily ? node.family : node.redlist_category), // Use the new color logic
+                        fillColor: getColor(colorAttribute), // Use the new color logic
                         color: 'white',
                         weight: 1,
                         opacity: 0.2,
@@ -472,11 +551,18 @@
             const title = document.createElement('div');
             title.style.fontWeight = 'bold';
             title.style.marginBottom = '10px';
-            title.textContent = colorByFamily ? 'Families' : 'Redlist Categories';
+            title.textContent = colorByFamily ? 'Families' : (colorByHabitat ? 'Habitats' : 'Redlist Categories');
             legend.appendChild(title);
 
             // Filter nodes to get unique attributes based on the current mode
-            const uniqueAttributes = new Set(nodes.map(node => colorByFamily ? node.family : node.redlist_category));
+            const uniqueAttributes = new Set(nodes.map(node => {
+                console.log(node)
+                if (colorByFamily) return node.family;
+                if (colorByHabitat) return node.habitat;
+                return node.redlist_category;
+            }));
+
+            console.log(uniqueAttributes)
 
             // Add items for each unique attribute
             uniqueAttributes.forEach(attribute => {
@@ -509,49 +595,6 @@
             const toggle = document.getElementById('info-toggle');
             content.classList.toggle('show');
             toggle.textContent = content.classList.contains('show') ? '▲' : '▼';
-        }
-
-        // Add state for color mode
-        let colorByFamily = true;
-
-        // Function to toggle color mode
-        function toggleColorMode() {
-            colorByFamily = !colorByFamily;
-            const button = document.getElementById('color-toggle');
-            button.textContent = colorByFamily ? 'Color by Redlist Category' : 'Color by Family';
-            displayGraph(); // Refresh the graph with the new color mode
-            updateLegend(); // Update the legend to reflect the new mode
-        }
-
-        // Add button click handler
-        document.getElementById('color-toggle').addEventListener('click', toggleColorMode);
-
-        // Define color mapping for redlist categories
-        const redlistColors = {
-            'Endangered': '#FF6B6B', // Red
-            'Least Concern': '#96CEB4', // Green
-            'Near Threatened': '#FFEEAD', // Yellow
-            'Vulnerable': '#D4A5A5', // Pink
-            'Critically Endangered': '#E67E22', // Orange
-            'Extinct in the Wild': '#34495E' // Dark Gray
-        };
-
-        // Update getColor to handle both family and redlist_category
-        function getColor(attribute) {
-            if (!attribute) return defaultColor;
-            
-            if (colorByFamily) {
-                if (!familyColors.has(attribute)) {
-                    const colorPalette = [
-                        '#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEEAD',
-                        '#D4A5A5', '#9B59B6', '#E67E22', '#1ABC9C', '#34495E'
-                    ];
-                    familyColors.set(attribute, colorPalette[familyColors.size % colorPalette.length]);
-                }
-                return familyColors.get(attribute);
-            } else {
-                return redlistColors[attribute] || defaultColor;
-            }
         }
     </script>
 </body>
