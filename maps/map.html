@@ -116,6 +116,7 @@
             <option value="redlist">Color by Redlist Category</option>
             <option value="habitat">Color by Habitat</option>
             <option value="community">Color by Community</option>
+            <option value="trophic_niche">Color by Trophic Niche</option>
         </select>
         <div class="info-panel">
             <div class="info-header" onclick="toggleInfo()">
@@ -219,7 +220,11 @@
                 habitat: node.habitat,
                 redlist_category: node.redlist_category,
                 community: node.community,
-                color: getColor(colorByFamily ? node.family : (colorByHabitat ? node.habitat : (colorByCommunity ? node.community : node.redlist_category)))
+                trophic_niche: node.trophic_niche,
+                color: getColor(colorByFamily ? node.family : 
+                                (colorByHabitat ? node.habitat : 
+                                (colorByCommunity ? node.community : 
+                                (colorByTrophicNiche ? node.trophic_niche : node.redlist_category))))
             }));
 
             edges = data.edges.map(edge => ({
@@ -228,7 +233,7 @@
             }));
 
             displayGraph();
-            updateLegend(); // Add this line to update the legend
+            updateLegend(); // Ensure the legend is updated
         }
 
         // Move panToNode function outside of displayGraph
@@ -280,6 +285,7 @@
         let colorByFamily = true;
         let colorByHabitat = false;
         let colorByCommunity = false;
+        let colorByTrophicNiche = false;
 
         // Function to update color mode based on select value
         function updateColorMode() {
@@ -289,6 +295,7 @@
             colorByFamily = mode === 'family';
             colorByHabitat = mode === 'habitat';
             colorByCommunity = mode === 'community';
+            colorByTrophicNiche = mode === 'trophic_niche';
 
             displayGraph(); // Refresh the graph with the new color mode
             updateLegend(); // Update the legend to reflect the new mode
@@ -297,7 +304,7 @@
         // Add event listener for select field
         document.getElementById('color-mode-select').addEventListener('change', updateColorMode);
 
-        // Function to get or create color for a family, habitat, community, or redlist category
+        // Function to get or create color for a family, habitat, community, trophic niche, or redlist category
         function getColor(attribute) {
             if (!attribute) return defaultColor;
             
@@ -320,6 +327,11 @@
                     communityColors.set(attribute, getRandomColor());
                 }
                 return communityColors.get(attribute);
+            } else if (colorByTrophicNiche) {
+                if (!trophicNicheColors.has(attribute)) {
+                    trophicNicheColors.set(attribute, getRandomColor());
+                }
+                return trophicNicheColors.get(attribute);
             } else {
                 return redlistColors[attribute] || defaultColor;
             }
@@ -327,6 +339,9 @@
 
         // Define color mapping for communities using random colors
         const communityColors = new Map();
+
+        // Define color mapping for trophic niches using random colors
+        const trophicNicheColors = new Map();
 
         // Function to display the graph on the map
         function displayGraph() {
@@ -394,6 +409,10 @@
                                 <td>${node.community || 'N/A'}</td>
                             </tr>
                             <tr>
+                                <td style="padding: 3px 0"><strong>Trophic Niche:</strong></td>
+                                <td>${node.trophic_niche || 'N/A'}</td>
+                            </tr>
+                            <tr>
                                 <td style="padding: 3px 0"><strong>Latitude:</strong></td>
                                 <td>${node.lat.toFixed(4)}</td>
                             </tr>
@@ -418,7 +437,10 @@
             // Add nodes as circle markers
             nodes.forEach(node => {
                 if (node.lat && node.lon) {
-                    const colorAttribute = colorByFamily ? node.family : (colorByHabitat ? node.habitat : (colorByCommunity ? node.community : node.redlist_category));
+                    const colorAttribute = colorByFamily ? node.family : 
+                                           (colorByHabitat ? node.habitat : 
+                                           (colorByCommunity ? node.community : 
+                                           (colorByTrophicNiche ? node.trophic_niche : node.redlist_category)));
                     const marker = L.circleMarker([node.lat, node.lon], {
                         radius: 8,
                         fillColor: getColor(colorAttribute), // Use the new color logic
@@ -567,14 +589,18 @@
             const title = document.createElement('div');
             title.style.fontWeight = 'bold';
             title.style.marginBottom = '10px';
-            title.textContent = colorByFamily ? 'Families' : (colorByHabitat ? 'Habitats' : (colorByCommunity ? 'Communities' : 'Redlist Categories'));
+            title.textContent = colorByFamily ? 'Families' : 
+                                (colorByHabitat ? 'Habitats' : 
+                                (colorByCommunity ? 'Communities' : 
+                                (colorByTrophicNiche ? 'Trophic Niches' : 'Redlist Categories')));
             legend.appendChild(title);
 
             // Filter nodes to get unique attributes based on the current mode
             const uniqueAttributes = Array.from(new Set(nodes.map(node => {
                 if (colorByFamily) return node.family;
                 if (colorByHabitat) return node.habitat;
-                if (colorByCommunity) return node.community; // Add community attribute
+                if (colorByCommunity) return node.community;
+                if (colorByTrophicNiche) return node.trophic_niche;
                 return node.redlist_category;
             })));
 
