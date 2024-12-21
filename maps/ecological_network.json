@@ -1272,18 +1272,7 @@
       "family": "PSITTACIDAE",
       "scientific_name": "Amazona viridigenalis"
     },
-    {
-      "id": "Cyanopsitta spixii",
-      "latitude": NaN,
-      "longitude": NaN,
-      "habitat": "Forest",
-      "migration": 1.0,
-      "trophic_level": "Herbivore",
-      "trophic_niche": "Omnivore",
-      "primary_lifestyle": "Insessorial",
-      "family": "PSITTACIDAE",
-      "scientific_name": "Cyanopsitta spixii"
-    },
+
     {
       "id": "Alexandrinus eques",
       "latitude": -20.41,
@@ -1933,18 +1922,6 @@
       "scientific_name": "Amazona imperialis"
     },
     {
-      "id": "Pyrrhura subandina",
-      "latitude": NaN,
-      "longitude": NaN,
-      "habitat": "Forest",
-      "migration": 1.0,
-      "trophic_level": "Herbivore",
-      "trophic_niche": "Frugivore",
-      "primary_lifestyle": "Insessorial",
-      "family": "PSITTACIDAE",
-      "scientific_name": "Pyrrhura subandina"
-    },
-    {
       "id": "Pyrrhura caeruleiceps",
       "latitude": 9.51,
       "longitude": -73.04,
@@ -2076,18 +2053,7 @@
       "family": "PSITTACIDAE",
       "scientific_name": "Tanygnathus sumatranus"
     },
-    {
-      "id": "Tanygnathus everetti",
-      "latitude": NaN,
-      "longitude": NaN,
-      "habitat": "Forest",
-      "migration": 1.0,
-      "trophic_level": "Herbivore",
-      "trophic_niche": "Frugivore",
-      "primary_lifestyle": "Insessorial",
-      "family": "PSITTACIDAE",
-      "scientific_name": "Tanygnathus everetti"
-    },
+
     {
       "id": "Eupsittula canicularis",
       "latitude": 17.22,
