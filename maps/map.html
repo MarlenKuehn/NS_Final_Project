@@ -115,6 +115,7 @@
             <option value="family">Color by Family</option>
             <option value="redlist">Color by Redlist Category</option>
             <option value="habitat">Color by Habitat</option>
+            <option value="community">Color by Community</option>
         </select>
         <div class="info-panel">
             <div class="info-header" onclick="toggleInfo()">
@@ -217,7 +218,8 @@
                 family: node.family,
                 habitat: node.habitat,
                 redlist_category: node.redlist_category,
-                color: getColor(colorByFamily ? node.family : (colorByHabitat ? node.habitat : node.redlist_category))
+                community: node.community,
+                color: getColor(colorByFamily ? node.family : (colorByHabitat ? node.habitat : (colorByCommunity ? node.community : node.redlist_category)))
             }));
 
             edges = data.edges.map(edge => ({
@@ -277,6 +279,7 @@
         // Add state for color mode
         let colorByFamily = true;
         let colorByHabitat = false;
+        let colorByCommunity = false;
 
         // Function to update color mode based on select value
         function updateColorMode() {
@@ -285,6 +288,7 @@
 
             colorByFamily = mode === 'family';
             colorByHabitat = mode === 'habitat';
+            colorByCommunity = mode === 'community';
 
             displayGraph(); // Refresh the graph with the new color mode
             updateLegend(); // Update the legend to reflect the new mode
@@ -293,7 +297,7 @@
         // Add event listener for select field
         document.getElementById('color-mode-select').addEventListener('change', updateColorMode);
 
-        // Update getColor to handle family, redlist_category, and habitat
+        // Function to get or create color for a family, habitat, community, or redlist category
         function getColor(attribute) {
             if (!attribute) return defaultColor;
             
@@ -311,10 +315,18 @@
                     familyColors.set(attribute, colorPalette[familyColors.size % colorPalette.length]);
                 }
                 return familyColors.get(attribute);
+            } else if (colorByCommunity) {
+                if (!communityColors.has(attribute)) {
+                    communityColors.set(attribute, getRandomColor());
+                }
+                return communityColors.get(attribute);
             } else {
                 return redlistColors[attribute] || defaultColor;
             }
         }
+
+        // Define color mapping for communities using random colors
+        const communityColors = new Map();
 
         // Function to display the graph on the map
         function displayGraph() {
@@ -378,6 +390,10 @@
                                 <td>${node.redlist_category || 'N/A'}</td>
                             </tr>
                             <tr>
+                                <td style="padding: 3px 0"><strong>Community:</strong></td>
+                                <td>${node.community || 'N/A'}</td>
+                            </tr>
+                            <tr>
                                 <td style="padding: 3px 0"><strong>Latitude:</strong></td>
                                 <td>${node.lat.toFixed(4)}</td>
                             </tr>
@@ -402,7 +418,7 @@
             // Add nodes as circle markers
             nodes.forEach(node => {
                 if (node.lat && node.lon) {
-                    const colorAttribute = colorByFamily ? node.family : (colorByHabitat ? node.habitat : node.redlist_category);
+                    const colorAttribute = colorByFamily ? node.family : (colorByHabitat ? node.habitat : (colorByCommunity ? node.community : node.redlist_category));
                     const marker = L.circleMarker([node.lat, node.lon], {
                         radius: 8,
                         fillColor: getColor(colorAttribute), // Use the new color logic
@@ -551,18 +567,19 @@
             const title = document.createElement('div');
             title.style.fontWeight = 'bold';
             title.style.marginBottom = '10px';
-            title.textContent = colorByFamily ? 'Families' : (colorByHabitat ? 'Habitats' : 'Redlist Categories');
+            title.textContent = colorByFamily ? 'Families' : (colorByHabitat ? 'Habitats' : (colorByCommunity ? 'Communities' : 'Redlist Categories'));
             legend.appendChild(title);
 
             // Filter nodes to get unique attributes based on the current mode
-            const uniqueAttributes = new Set(nodes.map(node => {
-                console.log(node)
+            const uniqueAttributes = Array.from(new Set(nodes.map(node => {
                 if (colorByFamily) return node.family;
                 if (colorByHabitat) return node.habitat;
+                if (colorByCommunity) return node.community; // Add community attribute
                 return node.redlist_category;
-            }));
+            })));
 
-            console.log(uniqueAttributes)
+            // Sort the unique attributes
+            uniqueAttributes.sort();
 
             // Add items for each unique attribute
             uniqueAttributes.forEach(attribute => {
