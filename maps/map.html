@@ -118,6 +118,16 @@
             <option value="community">Color by Community</option>
             <option value="trophic_niche">Color by Trophic Niche</option>
         </select>
+        <select id="filter-category" class="filter-toggle">
+            <option value="all">Show All Birds</option>
+            <option value="Trade">Trade</option>
+            <option value="Habitat Loss">Habitat Loss</option>
+            <option value="Climate Change">Climate Change</option>
+            <option value="Diseases">Diseases</option>
+            <option value="Predation">Predation</option>
+            <option value="Human Activity">Human Activity</option>
+            <option value="Pollution">Pollution</option>
+        </select>
         <div class="info-panel">
             <div class="info-header" onclick="toggleInfo()">
                 <h3 style="margin: 0;">Map Functionality Guide</h3>
@@ -178,6 +188,7 @@
         const familyColors = new Map();
         const defaultColor = '#808080';  // Default gray for unknown families
 
+
         // Function to get or create color for a family
         function getFamilyColor(family) {
             if (!family) return defaultColor;
@@ -206,7 +217,16 @@
         let edges = [];
         let edgeLayers = new Map(); // To store edge references
 
-  
+            // Define the categories
+            const categories = {
+                'Trade': ['trade'],
+                'Habitat Loss': ['habitat', 'loss', 'forest', 'areas'],
+                'Climate Change': ['cyclones', 'natural', 'climate'],
+                'Diseases': ['avian', 'malaria'],
+                'Predation': ['predators'],
+                'Human Activity': ['hunting', 'logging', 'agriculture'],
+                'Pollution': ['pollution'],
+            };
 
         // Function to parse JSON file
         function parseJSON(jsonText) {
@@ -221,6 +241,7 @@
                 redlist_category: node.redlist_category,
                 community: node.community,
                 trophic_niche: node.trophic_niche,
+                threats: node.threats,
                 color: getColor(colorByFamily ? node.family : 
                                 (colorByHabitat ? node.habitat : 
                                 (colorByCommunity ? node.community : 
@@ -256,7 +277,7 @@
                     }
                 });
             }
-        }
+        }     
 
         // Function to generate a random color
         function getRandomColor() {
@@ -343,14 +364,21 @@
         // Define color mapping for trophic niches using random colors
         const trophicNicheColors = new Map();
 
+        document.getElementById('filter-category').addEventListener('change', function (event) {
+            const selectedCategory = event.target.value; // Get the selected category
+            displayGraph(selectedCategory); // Update the map with the selected category
+        });
+        
+
         // Function to display the graph on the map
-        function displayGraph() {
+        function displayGraph(selectedCategory = "all") {
             // Clear existing markers and lines
             map.eachLayer((layer) => {
                 if (!(layer instanceof L.TileLayer)) {
                     map.removeLayer(layer);
                 }
             });
+
             edgeLayers.clear();
 
             // Function to count connections for a node
@@ -434,13 +462,18 @@
                     </div>`;
             }
 
-            // Add nodes as circle markers
+        // Add nodes as circle markers
             nodes.forEach(node => {
-                if (node.lat && node.lon) {
+                // Parse the threats attribute as an array
+                const nodeThreats = JSON.parse(node.threats || '[]');
+
+                // Check if the node matches the selected category
+                const matchesCategory = selectedCategory === "all" || nodeThreats.includes(selectedCategory);
+                if (matchesCategory && node.lat && node.lon) {
                     const colorAttribute = colorByFamily ? node.family : 
-                                           (colorByHabitat ? node.habitat : 
-                                           (colorByCommunity ? node.community : 
-                                           (colorByTrophicNiche ? node.trophic_niche : node.redlist_category)));
+                                        (colorByHabitat ? node.habitat : 
+                                        (colorByCommunity ? node.community : 
+                                        (colorByTrophicNiche ? node.trophic_niche : node.redlist_category)));
                     const marker = L.circleMarker([node.lat, node.lon], {
                         radius: 8,
                         fillColor: getColor(colorAttribute), // Use the new color logic
@@ -457,6 +490,10 @@
                     marker.on('mouseover', () => showConnectedEdges(node.id));
                     marker.on('mouseout', () => hideConnectedEdges(node.id));
                 }
+            });
+            const displayedNodes = nodes.filter(node => {
+                const nodeThreats = JSON.parse(node.threats || '[]');
+                return selectedCategory === "all" || nodeThreats.includes(selectedCategory);
             });
 
             // Create edge layers but don't add them to map yet
