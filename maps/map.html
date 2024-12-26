@@ -128,44 +128,14 @@
             <option value="Human Activity">Human Activity</option>
             <option value="Pollution">Pollution</option>
         </select>
-        <div class="info-panel">
-            <div class="info-header" onclick="toggleInfo()">
-                <h3 style="margin: 0;">Map Functionality Guide</h3>
-                <span id="info-toggle">▼</span>
-            </div>
-            <div id="info-content" class="info-content">
-                <p>This interactive map visualizes network data with geographical coordinates. Here's what you can do:</p>
-                <ul>
-                    <li><strong>Load Data:</strong> Upload your JSON file containing nodes (with coordinates and family attributes) and edges.</li>
-                    <li><strong>Node Visualization:</strong> 
-                        <ul>
-                            <li>Nodes are displayed as colored circles on the map</li>
-                            <li>Colors represent different families (see legend in bottom-right)</li>
-                            <li>Hover over nodes to highlight their connections</li>
-                        </ul>
-                    </li>
-                    <li><strong>Edge Display:</strong>
-                        <ul>
-                            <li>Toggle between "Show All Edges" and "Show Edges on Hover" modes</li>
-                            <li>Edges become thicker when hovering over connected nodes</li>
-                        </ul>
-                    </li>
-                    <li><strong>Node Information:</strong>
-                        <ul>
-                            <li>Click any node to see detailed information</li>
-                            <li>View node ID, family, coordinates, and number of connections</li>
-                            <li>Click on neighbor IDs in the popup to navigate to those nodes</li>
-                        </ul>
-                    </li>
-                    <li><strong>Navigation:</strong>
-                        <ul>
-                            <li>Pan and zoom the map freely</li>
-                            <li>Click neighbor links to automatically fly to that location</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+        <div id="earch-container" style="margin-bottom: 10px;">
+            <input type="text" id="search-input" placeholder="Enter node ID" style="padding: 5px; width: 200px;">
+            <button id="search-button" style="padding: 5px;">Search</button>
         </div>
+
+           
+                        
+               
     </div>
 
     <div id="map"></div>
@@ -676,6 +646,26 @@
             content.classList.toggle('show');
             toggle.textContent = content.classList.contains('show') ? '▲' : '▼';
         }
+
+        // Function to pan to a node by ID
+        function panToNode(nodeId) {
+            const node = nodes.find(n => n.id === nodeId);
+            if (node && node.lat && node.lon) {
+                map.setView([node.lat, node.lon], 13); // Adjust the zoom level as needed
+            } else {
+                alert('Node not found or location is missing.');
+            }
+        }
+
+        // Add event listener for the search button
+        document.getElementById('search-button').addEventListener('click', () => {
+            const nodeId = document.getElementById('search-input').value.trim();
+            if (nodeId) {
+                panToNode(nodeId);
+            } else {
+                alert('Please enter a valid node ID.');
+            }
+        });
     </script>
 </body>
 </html>
