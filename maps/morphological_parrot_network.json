@@ -11,7 +11,8 @@
       "redlist_category": "Endangered",
       "scientific_name": "Eos histrio",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Eos histrio",
       "threat_categories": []
     },
     {
@@ -26,6 +27,7 @@
       "scientific_name": "Trichoglossus euteles",
       "threats": "[]",
       "community": 1,
+      "id": "Trichoglossus euteles",
       "threat_categories": []
     },
     {
@@ -40,6 +42,7 @@
       "scientific_name": "Trichoglossus johnstoniae",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 2,
+      "id": "Trichoglossus johnstoniae",
       "threat_categories": []
     },
     {
@@ -54,6 +57,7 @@
       "scientific_name": "Vini australis",
       "threats": "[]",
       "community": 1,
+      "id": "Vini australis",
       "threat_categories": []
     },
     {
@@ -68,6 +72,7 @@
       "scientific_name": "Charmosyna palmarum",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Diseases\", \"Human Activity\"]",
       "community": 2,
+      "id": "Charmosyna palmarum",
       "threat_categories": []
     },
     {
@@ -82,6 +87,7 @@
       "scientific_name": "Prioniturus mada",
       "threats": "[]",
       "community": 3,
+      "id": "Prioniturus mada",
       "threat_categories": []
     },
     {
@@ -96,6 +102,7 @@
       "scientific_name": "Agapornis nigrigenis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 4,
+      "id": "Agapornis nigrigenis",
       "threat_categories": []
     },
     {
@@ -110,6 +117,7 @@
       "scientific_name": "Loriculus galgulus",
       "threats": "[\"Trade\"]",
       "community": 5,
+      "id": "Loriculus galgulus",
       "threat_categories": []
     },
     {
@@ -124,6 +132,7 @@
       "scientific_name": "Loriculus catamene",
       "threats": "[\"Habitat Loss\"]",
       "community": 2,
+      "id": "Loriculus catamene",
       "threat_categories": []
     },
     {
@@ -138,6 +147,7 @@
       "scientific_name": "Nicopsitta calthrapae",
       "threats": "[]",
       "community": 6,
+      "id": "Nicopsitta calthrapae",
       "threat_categories": []
     },
     {
@@ -152,6 +162,7 @@
       "scientific_name": "Anodorhynchus hyacinthinus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 7,
+      "id": "Anodorhynchus hyacinthinus",
       "threat_categories": []
     },
     {
@@ -166,6 +177,7 @@
       "scientific_name": "Primolius maracana",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 7,
+      "id": "Primolius maracana",
       "threat_categories": []
     },
     {
@@ -180,6 +192,7 @@
       "scientific_name": "Psittacara leucophthalmus",
       "threats": "[\"Trade\"]",
       "community": 8,
+      "id": "Psittacara leucophthalmus",
       "threat_categories": []
     },
     {
@@ -193,7 +206,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Aratinga jandaya",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Aratinga jandaya",
       "threat_categories": []
     },
     {
@@ -208,6 +222,7 @@
       "scientific_name": "Pyrrhura cruentata",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 6,
+      "id": "Pyrrhura cruentata",
       "threat_categories": []
     },
     {
@@ -222,6 +237,7 @@
       "scientific_name": "Pyrrhura frontalis",
       "threats": "[\"Trade\"]",
       "community": 6,
+      "id": "Pyrrhura frontalis",
       "threat_categories": []
     },
     {
@@ -236,6 +252,7 @@
       "scientific_name": "Pyrrhura hoematotis",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura hoematotis",
       "threat_categories": []
     },
     {
@@ -249,7 +266,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Enicognathus ferrugineus",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Enicognathus ferrugineus",
       "threat_categories": []
     },
     {
@@ -264,6 +282,7 @@
       "scientific_name": "Pionites melanocephalus",
       "threats": "[]",
       "community": 10,
+      "id": "Pionites melanocephalus",
       "threat_categories": []
     },
     {
@@ -278,6 +297,7 @@
       "scientific_name": "Pionus chalcopterus",
       "threats": "[\"Trade\"]",
       "community": 10,
+      "id": "Pionus chalcopterus",
       "threat_categories": []
     },
     {
@@ -292,6 +312,7 @@
       "scientific_name": "Pionus fuscus",
       "threats": "[]",
       "community": 10,
+      "id": "Pionus fuscus",
       "threat_categories": []
     },
     {
@@ -306,6 +327,7 @@
       "scientific_name": "Trichoglossus flavoviridis",
       "threats": "[]",
       "community": 1,
+      "id": "Trichoglossus flavoviridis",
       "threat_categories": []
     },
     {
@@ -320,6 +342,7 @@
       "scientific_name": "Pionus tumultuosus",
       "threats": "[]",
       "community": 10,
+      "id": "Pionus tumultuosus",
       "threat_categories": []
     },
     {
@@ -334,6 +357,7 @@
       "scientific_name": "Coracopsis nigra",
       "threats": "[]",
       "community": 11,
+      "id": "Coracopsis nigra",
       "threat_categories": []
     },
     {
@@ -347,7 +371,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Psittacara rubritorquis",
       "threats": "[]",
-      "community": 9,
+      "community": 8,
+      "id": "Psittacara rubritorquis",
       "threat_categories": []
     },
     {
@@ -362,6 +387,7 @@
       "scientific_name": "Aratinga maculata",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 6,
+      "id": "Aratinga maculata",
       "threat_categories": []
     },
     {
@@ -376,6 +402,7 @@
       "scientific_name": "Eupsittula astec",
       "threats": "[]",
       "community": 6,
+      "id": "Eupsittula astec",
       "threat_categories": []
     },
     {
@@ -390,6 +417,7 @@
       "scientific_name": "Geoffroyus hyacinthinus",
       "threats": "[]",
       "community": 3,
+      "id": "Geoffroyus hyacinthinus",
       "threat_categories": []
     },
     {
@@ -404,6 +432,7 @@
       "scientific_name": "Pyrrhura lucianii",
       "threats": "[\"Habitat Loss\"]",
       "community": 6,
+      "id": "Pyrrhura lucianii",
       "threat_categories": []
     },
     {
@@ -418,6 +447,7 @@
       "scientific_name": "Pyrrhura pacifica",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura pacifica",
       "threat_categories": []
     },
     {
@@ -432,6 +462,7 @@
       "scientific_name": "Diopsittaca nobilis",
       "threats": "[]",
       "community": 8,
+      "id": "Diopsittaca nobilis",
       "threat_categories": []
     },
     {
@@ -446,6 +477,7 @@
       "scientific_name": "Tanygnathus gramineus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 8,
+      "id": "Tanygnathus gramineus",
       "threat_categories": []
     },
     {
@@ -460,6 +492,7 @@
       "scientific_name": "Palaeornis eupatria",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 8,
+      "id": "Palaeornis eupatria",
       "threat_categories": []
     },
     {
@@ -474,6 +507,7 @@
       "scientific_name": "Trichoglossus weberi",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 1,
+      "id": "Trichoglossus weberi",
       "threat_categories": []
     },
     {
@@ -488,6 +522,7 @@
       "scientific_name": "Lorius garrulus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 12,
+      "id": "Lorius garrulus",
       "threat_categories": []
     },
     {
@@ -502,6 +537,7 @@
       "scientific_name": "Cacatua haematuropygia",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Predation\"]",
       "community": 13,
+      "id": "Cacatua haematuropygia",
       "threat_categories": []
     },
     {
@@ -516,6 +552,7 @@
       "scientific_name": "Amazona brasiliensis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\"]",
       "community": 13,
+      "id": "Amazona brasiliensis",
       "threat_categories": []
     },
     {
@@ -530,6 +567,7 @@
       "scientific_name": "Psittrichas fulgidus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Psittrichas fulgidus",
       "threat_categories": []
     },
     {
@@ -544,6 +582,7 @@
       "scientific_name": "Pyrrhura leucotis",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 6,
+      "id": "Pyrrhura leucotis",
       "threat_categories": []
     },
     {
@@ -558,6 +597,7 @@
       "scientific_name": "Amazona vinacea",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona vinacea",
       "threat_categories": []
     },
     {
@@ -572,6 +612,7 @@
       "scientific_name": "Amazona rhodocorytha",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona rhodocorytha",
       "threat_categories": []
     },
     {
@@ -586,6 +627,7 @@
       "scientific_name": "Poicephalus fuscicollis",
       "threats": "[]",
       "community": 12,
+      "id": "Poicephalus fuscicollis",
       "threat_categories": []
     },
     {
@@ -600,6 +642,7 @@
       "scientific_name": "Nestor notabilis",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Predation\"]",
       "community": 13,
+      "id": "Nestor notabilis",
       "threat_categories": []
     },
     {
@@ -613,7 +656,8 @@
       "redlist_category": "Critically Endangered",
       "scientific_name": "Charmosyna amabilis",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
-      "community": 2,
+      "community": 1,
+      "id": "Charmosyna amabilis",
       "threat_categories": []
     },
     {
@@ -627,7 +671,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Polytelis swainsonii",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Polytelis swainsonii",
       "threat_categories": []
     },
     {
@@ -642,6 +687,7 @@
       "scientific_name": "Chalcopsitta duivenbodei",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Chalcopsitta duivenbodei",
       "threat_categories": []
     },
     {
@@ -656,6 +702,7 @@
       "scientific_name": "Psitteuteles goldiei",
       "threats": "[]",
       "community": 1,
+      "id": "Psitteuteles goldiei",
       "threat_categories": []
     },
     {
@@ -670,6 +717,7 @@
       "scientific_name": "Lorius lory",
       "threats": "[]",
       "community": 12,
+      "id": "Lorius lory",
       "threat_categories": []
     },
     {
@@ -684,6 +732,7 @@
       "scientific_name": "Cacatua ducorpsii",
       "threats": "[]",
       "community": 13,
+      "id": "Cacatua ducorpsii",
       "threat_categories": []
     },
     {
@@ -698,6 +747,7 @@
       "scientific_name": "Geoffroyus geoffroyi",
       "threats": "[]",
       "community": 5,
+      "id": "Geoffroyus geoffroyi",
       "threat_categories": []
     },
     {
@@ -712,6 +762,7 @@
       "scientific_name": "Agapornis swindernianus",
       "threats": "[]",
       "community": 4,
+      "id": "Agapornis swindernianus",
       "threat_categories": []
     },
     {
@@ -726,6 +777,7 @@
       "scientific_name": "Ara severus",
       "threats": "[]",
       "community": 7,
+      "id": "Ara severus",
       "threat_categories": []
     },
     {
@@ -740,6 +792,7 @@
       "scientific_name": "Pyrrhura molinae",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura molinae",
       "threat_categories": []
     },
     {
@@ -754,6 +807,7 @@
       "scientific_name": "Brotogeris chiriri",
       "threats": "[]",
       "community": 2,
+      "id": "Brotogeris chiriri",
       "threat_categories": []
     },
     {
@@ -768,6 +822,7 @@
       "scientific_name": "Touit dilectissimus",
       "threats": "[]",
       "community": 5,
+      "id": "Touit dilectissimus",
       "threat_categories": []
     },
     {
@@ -781,7 +836,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Pionopsitta pileata",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Pionopsitta pileata",
       "threat_categories": []
     },
     {
@@ -796,6 +852,7 @@
       "scientific_name": "Lathamus discolor",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 1,
+      "id": "Lathamus discolor",
       "threat_categories": []
     },
     {
@@ -810,6 +867,7 @@
       "scientific_name": "Cyanoramphus malherbi",
       "threats": "[\"Habitat Loss\", \"Predation\"]",
       "community": 11,
+      "id": "Cyanoramphus malherbi",
       "threat_categories": []
     },
     {
@@ -824,6 +882,7 @@
       "scientific_name": "Neophema chrysogaster",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 3,
+      "id": "Neophema chrysogaster",
       "threat_categories": []
     },
     {
@@ -838,6 +897,7 @@
       "scientific_name": "Coracopsis vasa",
       "threats": "[]",
       "community": 8,
+      "id": "Coracopsis vasa",
       "threat_categories": []
     },
     {
@@ -852,6 +912,7 @@
       "scientific_name": "Eolophus roseicapilla",
       "threats": "[]",
       "community": 8,
+      "id": "Eolophus roseicapilla",
       "threat_categories": []
     },
     {
@@ -866,6 +927,7 @@
       "scientific_name": "Agapornis canus",
       "threats": "[\"Trade\"]",
       "community": 2,
+      "id": "Agapornis canus",
       "threat_categories": []
     },
     {
@@ -879,7 +941,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Eos bornea",
       "threats": "[\"Trade\"]",
-      "community": 9,
+      "community": 8,
+      "id": "Eos bornea",
       "threat_categories": []
     },
     {
@@ -894,6 +957,7 @@
       "scientific_name": "Cacatua leadbeateri",
       "threats": "[\"Habitat Loss\"]",
       "community": 13,
+      "id": "Cacatua leadbeateri",
       "threat_categories": []
     },
     {
@@ -908,6 +972,7 @@
       "scientific_name": "Cacatua galerita",
       "threats": "[]",
       "community": 13,
+      "id": "Cacatua galerita",
       "threat_categories": []
     },
     {
@@ -922,6 +987,7 @@
       "scientific_name": "Cacatua sanguinea",
       "threats": "[]",
       "community": 13,
+      "id": "Cacatua sanguinea",
       "threat_categories": []
     },
     {
@@ -936,6 +1002,7 @@
       "scientific_name": "Agapornis roseicollis",
       "threats": "[]",
       "community": 4,
+      "id": "Agapornis roseicollis",
       "threat_categories": []
     },
     {
@@ -950,6 +1017,7 @@
       "scientific_name": "Agapornis personatus",
       "threats": "[]",
       "community": 4,
+      "id": "Agapornis personatus",
       "threat_categories": []
     },
     {
@@ -964,6 +1032,7 @@
       "scientific_name": "Agapornis lilianae",
       "threats": "[\"Trade\"]",
       "community": 4,
+      "id": "Agapornis lilianae",
       "threat_categories": []
     },
     {
@@ -978,6 +1047,7 @@
       "scientific_name": "Ara ararauna",
       "threats": "[\"Trade\"]",
       "community": 7,
+      "id": "Ara ararauna",
       "threat_categories": []
     },
     {
@@ -991,7 +1061,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Aratinga nenday",
       "threats": "[\"Trade\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Aratinga nenday",
       "threat_categories": []
     },
     {
@@ -1006,6 +1077,7 @@
       "scientific_name": "Forpus passerinus",
       "threats": "[]",
       "community": 4,
+      "id": "Forpus passerinus",
       "threat_categories": []
     },
     {
@@ -1020,6 +1092,7 @@
       "scientific_name": "Brotogeris versicolurus",
       "threats": "[]",
       "community": 4,
+      "id": "Brotogeris versicolurus",
       "threat_categories": []
     },
     {
@@ -1034,6 +1107,7 @@
       "scientific_name": "Amazona albifrons",
       "threats": "[]",
       "community": 10,
+      "id": "Amazona albifrons",
       "threat_categories": []
     },
     {
@@ -1048,6 +1122,7 @@
       "scientific_name": "Amazona ochrocephala",
       "threats": "[]",
       "community": 13,
+      "id": "Amazona ochrocephala",
       "threat_categories": []
     },
     {
@@ -1062,6 +1137,7 @@
       "scientific_name": "Amazona amazonica",
       "threats": "[\"Trade\"]",
       "community": 13,
+      "id": "Amazona amazonica",
       "threat_categories": []
     },
     {
@@ -1076,6 +1152,7 @@
       "scientific_name": "Guaruba guarouba",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 12,
+      "id": "Guaruba guarouba",
       "threat_categories": []
     },
     {
@@ -1090,6 +1167,7 @@
       "scientific_name": "Cyanoramphus novaezelandiae",
       "threats": "[\"Habitat Loss\", \"Predation\", \"Human Activity\"]",
       "community": 11,
+      "id": "Cyanoramphus novaezelandiae",
       "threat_categories": []
     },
     {
@@ -1104,6 +1182,7 @@
       "scientific_name": "Amazona autumnalis",
       "threats": "[]",
       "community": 13,
+      "id": "Amazona autumnalis",
       "threat_categories": []
     },
     {
@@ -1118,6 +1197,7 @@
       "scientific_name": "Geoffroyus heteroclitus",
       "threats": "[]",
       "community": 1,
+      "id": "Geoffroyus heteroclitus",
       "threat_categories": []
     },
     {
@@ -1132,6 +1212,7 @@
       "scientific_name": "Trichoglossus chlorolepidotus",
       "threats": "[]",
       "community": 1,
+      "id": "Trichoglossus chlorolepidotus",
       "threat_categories": []
     },
     {
@@ -1146,6 +1227,7 @@
       "scientific_name": "Vini ultramarina",
       "threats": "[\"Habitat Loss\"]",
       "community": 3,
+      "id": "Vini ultramarina",
       "threat_categories": []
     },
     {
@@ -1159,7 +1241,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Nymphicus hollandicus",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Nymphicus hollandicus",
       "threat_categories": []
     },
     {
@@ -1174,6 +1257,7 @@
       "scientific_name": "Tanygnathus lucionensis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 12,
+      "id": "Tanygnathus lucionensis",
       "threat_categories": []
     },
     {
@@ -1188,6 +1272,7 @@
       "scientific_name": "Prosopeia tabuensis",
       "threats": "[]",
       "community": 13,
+      "id": "Prosopeia tabuensis",
       "threat_categories": []
     },
     {
@@ -1201,7 +1286,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Melopsittacus undulatus",
       "threats": "[]",
-      "community": 2,
+      "community": 1,
+      "id": "Melopsittacus undulatus",
       "threat_categories": []
     },
     {
@@ -1216,6 +1302,7 @@
       "scientific_name": "Psittacara acuticaudatus",
       "threats": "[\"Trade\"]",
       "community": 8,
+      "id": "Psittacara acuticaudatus",
       "threat_categories": []
     },
     {
@@ -1230,6 +1317,7 @@
       "scientific_name": "Psittacara mitratus",
       "threats": "[\"Trade\"]",
       "community": 8,
+      "id": "Psittacara mitratus",
       "threat_categories": []
     },
     {
@@ -1243,7 +1331,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Trichoglossus haematodus",
       "threats": "[\"Trade\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Trichoglossus haematodus",
       "threat_categories": []
     },
     {
@@ -1258,6 +1347,7 @@
       "scientific_name": "Platycercus elegans",
       "threats": "[]",
       "community": 11,
+      "id": "Platycercus elegans",
       "threat_categories": []
     },
     {
@@ -1272,6 +1362,7 @@
       "scientific_name": "Pyrrhura griseipectus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Predation\"]",
       "community": 6,
+      "id": "Pyrrhura griseipectus",
       "threat_categories": []
     },
     {
@@ -1286,6 +1377,7 @@
       "scientific_name": "Myiopsitta monachus",
       "threats": "[\"Trade\"]",
       "community": 1,
+      "id": "Myiopsitta monachus",
       "threat_categories": []
     },
     {
@@ -1300,6 +1392,7 @@
       "scientific_name": "Psittacara holochlorus",
       "threats": "[\"Habitat Loss\"]",
       "community": 8,
+      "id": "Psittacara holochlorus",
       "threat_categories": []
     },
     {
@@ -1314,6 +1407,7 @@
       "scientific_name": "Cyanoliseus patagonus",
       "threats": "[\"Trade\"]",
       "community": 8,
+      "id": "Cyanoliseus patagonus",
       "threat_categories": []
     },
     {
@@ -1328,6 +1422,7 @@
       "scientific_name": "Amazona xantholora",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 12,
+      "id": "Amazona xantholora",
       "threat_categories": []
     },
     {
@@ -1342,6 +1437,7 @@
       "scientific_name": "Pionus senilis",
       "threats": "[]",
       "community": 12,
+      "id": "Pionus senilis",
       "threat_categories": []
     },
     {
@@ -1355,7 +1451,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Pyrilia haematotis",
       "threats": "[\"Habitat Loss\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Pyrilia haematotis",
       "threat_categories": []
     },
     {
@@ -1370,6 +1467,7 @@
       "scientific_name": "Brotogeris jugularis",
       "threats": "[]",
       "community": 5,
+      "id": "Brotogeris jugularis",
       "threat_categories": []
     },
     {
@@ -1384,6 +1482,7 @@
       "scientific_name": "Bolborhynchus lineola",
       "threats": "[]",
       "community": 1,
+      "id": "Bolborhynchus lineola",
       "threat_categories": []
     },
     {
@@ -1397,7 +1496,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Psittacara finschi",
       "threats": "[]",
-      "community": 9,
+      "community": 8,
+      "id": "Psittacara finschi",
       "threat_categories": []
     },
     {
@@ -1412,6 +1512,7 @@
       "scientific_name": "Pyrrhura hoffmanni",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura hoffmanni",
       "threat_categories": []
     },
     {
@@ -1425,7 +1526,8 @@
       "redlist_category": "Near Threatened",
       "scientific_name": "Eos reticulata",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Eos reticulata",
       "threat_categories": []
     },
     {
@@ -1440,6 +1542,7 @@
       "scientific_name": "Psittacula caniceps",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\"]",
       "community": 11,
+      "id": "Psittacula caniceps",
       "threat_categories": []
     },
     {
@@ -1453,7 +1556,8 @@
       "redlist_category": "Endangered",
       "scientific_name": "Amazona viridigenalis",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
-      "community": 13,
+      "community": 7,
+      "id": "Amazona viridigenalis",
       "threat_categories": []
     },
     {
@@ -1468,6 +1572,7 @@
       "scientific_name": "Cyanopsitta spixii",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 11,
+      "id": "Cyanopsitta spixii",
       "threat_categories": []
     },
     {
@@ -1482,6 +1587,7 @@
       "scientific_name": "Alexandrinus eques",
       "threats": "[\"Habitat Loss\", \"Climate Change\"]",
       "community": 11,
+      "id": "Alexandrinus eques",
       "threat_categories": []
     },
     {
@@ -1496,6 +1602,7 @@
       "scientific_name": "Psittacara wagleri",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 8,
+      "id": "Psittacara wagleri",
       "threat_categories": []
     },
     {
@@ -1510,6 +1617,7 @@
       "scientific_name": "Anodorhynchus glaucus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 7,
+      "id": "Anodorhynchus glaucus",
       "threat_categories": []
     },
     {
@@ -1524,6 +1632,7 @@
       "scientific_name": "Psittacus erithacus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Diseases\", \"Human Activity\"]",
       "community": 12,
+      "id": "Psittacus erithacus",
       "threat_categories": []
     },
     {
@@ -1538,6 +1647,7 @@
       "scientific_name": "Amazona aestiva",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona aestiva",
       "threat_categories": []
     },
     {
@@ -1552,6 +1662,7 @@
       "scientific_name": "Pyrrhura melanura",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 6,
+      "id": "Pyrrhura melanura",
       "threat_categories": []
     },
     {
@@ -1565,7 +1676,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Eclectus polychloros",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
-      "community": 13,
+      "community": 7,
+      "id": "Eclectus polychloros",
       "threat_categories": []
     },
     {
@@ -1579,7 +1691,8 @@
       "redlist_category": "Vulnerable",
       "scientific_name": "Eclectus riedeli",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
-      "community": 13,
+      "community": 7,
+      "id": "Eclectus riedeli",
       "threat_categories": []
     },
     {
@@ -1593,7 +1706,8 @@
       "redlist_category": "Endangered",
       "scientific_name": "Eclectus cornelia",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 13,
+      "community": 7,
+      "id": "Eclectus cornelia",
       "threat_categories": []
     },
     {
@@ -1608,6 +1722,7 @@
       "scientific_name": "Poicephalus senegalus",
       "threats": "[\"Trade\", \"Diseases\"]",
       "community": 4,
+      "id": "Poicephalus senegalus",
       "threat_categories": []
     },
     {
@@ -1622,6 +1737,7 @@
       "scientific_name": "Pyrrhura chapmani",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 6,
+      "id": "Pyrrhura chapmani",
       "threat_categories": []
     },
     {
@@ -1635,7 +1751,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Eclectus roratus",
       "threats": "[\"Trade\", \"Human Activity\"]",
-      "community": 13,
+      "community": 7,
+      "id": "Eclectus roratus",
       "threat_categories": []
     },
     {
@@ -1650,6 +1767,7 @@
       "scientific_name": "Eos semilarvata",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 1,
+      "id": "Eos semilarvata",
       "threat_categories": []
     },
     {
@@ -1664,6 +1782,7 @@
       "scientific_name": "Loriculus flosculus",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 5,
+      "id": "Loriculus flosculus",
       "threat_categories": []
     },
     {
@@ -1678,6 +1797,7 @@
       "scientific_name": "Charmosyna diadema",
       "threats": "[\"Habitat Loss\", \"Diseases\"]",
       "community": 6,
+      "id": "Charmosyna diadema",
       "threat_categories": []
     },
     {
@@ -1692,6 +1812,7 @@
       "scientific_name": "Eupsittula pertinax",
       "threats": "[]",
       "community": 6,
+      "id": "Eupsittula pertinax",
       "threat_categories": []
     },
     {
@@ -1706,6 +1827,7 @@
       "scientific_name": "Ara chloropterus",
       "threats": "[]",
       "community": 7,
+      "id": "Ara chloropterus",
       "threat_categories": []
     },
     {
@@ -1720,6 +1842,7 @@
       "scientific_name": "Ara macao",
       "threats": "[]",
       "community": 7,
+      "id": "Ara macao",
       "threat_categories": []
     },
     {
@@ -1734,6 +1857,7 @@
       "scientific_name": "Forpus conspicillatus",
       "threats": "[]",
       "community": 4,
+      "id": "Forpus conspicillatus",
       "threat_categories": []
     },
     {
@@ -1748,6 +1872,7 @@
       "scientific_name": "Pionus menstruus",
       "threats": "[]",
       "community": 10,
+      "id": "Pionus menstruus",
       "threat_categories": []
     },
     {
@@ -1762,6 +1887,7 @@
       "scientific_name": "Pyrrhura picta",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura picta",
       "threat_categories": []
     },
     {
@@ -1776,6 +1902,7 @@
       "scientific_name": "Pyrrhura emma",
       "threats": "[\"Trade\"]",
       "community": 6,
+      "id": "Pyrrhura emma",
       "threat_categories": []
     },
     {
@@ -1790,6 +1917,7 @@
       "scientific_name": "Amazona diadema",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 13,
+      "id": "Amazona diadema",
       "threat_categories": []
     },
     {
@@ -1804,6 +1932,7 @@
       "scientific_name": "Forpus xanthops",
       "threats": "[\"Trade\"]",
       "community": 4,
+      "id": "Forpus xanthops",
       "threat_categories": []
     },
     {
@@ -1818,6 +1947,7 @@
       "scientific_name": "Psittacus timneh",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Diseases\"]",
       "community": 12,
+      "id": "Psittacus timneh",
       "threat_categories": []
     },
     {
@@ -1832,6 +1962,7 @@
       "scientific_name": "Ara ambiguus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 7,
+      "id": "Ara ambiguus",
       "threat_categories": []
     },
     {
@@ -1846,6 +1977,7 @@
       "scientific_name": "Pyrrhura viridicata",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 6,
+      "id": "Pyrrhura viridicata",
       "threat_categories": []
     },
     {
@@ -1860,6 +1992,7 @@
       "scientific_name": "Amazona dufresniana",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona dufresniana",
       "threat_categories": []
     },
     {
@@ -1874,6 +2007,7 @@
       "scientific_name": "Leptosittaca branickii",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 11,
+      "id": "Leptosittaca branickii",
       "threat_categories": []
     },
     {
@@ -1888,6 +2022,7 @@
       "scientific_name": "Trichoglossus forsteni",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 3,
+      "id": "Trichoglossus forsteni",
       "threat_categories": []
     },
     {
@@ -1902,6 +2037,7 @@
       "scientific_name": "Anodorhynchus leari",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 7,
+      "id": "Anodorhynchus leari",
       "threat_categories": []
     },
     {
@@ -1916,6 +2052,7 @@
       "scientific_name": "Pionus reichenowi",
       "threats": "[\"Habitat Loss\"]",
       "community": 10,
+      "id": "Pionus reichenowi",
       "threat_categories": []
     },
     {
@@ -1929,7 +2066,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Poicephalus cryptoxanthus",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Poicephalus cryptoxanthus",
       "threat_categories": []
     },
     {
@@ -1944,6 +2082,7 @@
       "scientific_name": "Cacatua alba",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Cacatua alba",
       "threat_categories": []
     },
     {
@@ -1958,6 +2097,7 @@
       "scientific_name": "Cacatua goffiniana",
       "threats": "[\"Habitat Loss\"]",
       "community": 13,
+      "id": "Cacatua goffiniana",
       "threat_categories": []
     },
     {
@@ -1971,7 +2111,8 @@
       "redlist_category": "Critically Endangered",
       "scientific_name": "Cacatua sulphurea",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 13,
+      "community": 7,
+      "id": "Cacatua sulphurea",
       "threat_categories": []
     },
     {
@@ -1986,6 +2127,7 @@
       "scientific_name": "Agapornis fischeri",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\"]",
       "community": 4,
+      "id": "Agapornis fischeri",
       "threat_categories": []
     },
     {
@@ -2000,6 +2142,7 @@
       "scientific_name": "Amazona collaria",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona collaria",
       "threat_categories": []
     },
     {
@@ -2014,6 +2157,7 @@
       "scientific_name": "Amazona leucocephala",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 13,
+      "id": "Amazona leucocephala",
       "threat_categories": []
     },
     {
@@ -2028,6 +2172,7 @@
       "scientific_name": "Amazona ventralis",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 13,
+      "id": "Amazona ventralis",
       "threat_categories": []
     },
     {
@@ -2042,6 +2187,7 @@
       "scientific_name": "Amazona vittata",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Predation\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona vittata",
       "threat_categories": []
     },
     {
@@ -2056,6 +2202,7 @@
       "scientific_name": "Coracopsis barklyi",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 11,
+      "id": "Coracopsis barklyi",
       "threat_categories": []
     },
     {
@@ -2069,7 +2216,8 @@
       "redlist_category": "Endangered",
       "scientific_name": "Amazona finschi",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
-      "community": 13,
+      "community": 7,
+      "id": "Amazona finschi",
       "threat_categories": []
     },
     {
@@ -2084,6 +2232,7 @@
       "scientific_name": "Amazona versicolor",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona versicolor",
       "threat_categories": []
     },
     {
@@ -2098,6 +2247,7 @@
       "scientific_name": "Amazona oratrix",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona oratrix",
       "threat_categories": []
     },
     {
@@ -2112,6 +2262,7 @@
       "scientific_name": "Amazona guatemalae",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 13,
+      "id": "Amazona guatemalae",
       "threat_categories": []
     },
     {
@@ -2126,6 +2277,7 @@
       "scientific_name": "Amazona guildingii",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona guildingii",
       "threat_categories": []
     },
     {
@@ -2140,6 +2292,7 @@
       "scientific_name": "Forpus cyanopygius",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 4,
+      "id": "Forpus cyanopygius",
       "threat_categories": []
     },
     {
@@ -2154,6 +2307,7 @@
       "scientific_name": "Pyrrhura eisenmanni",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 6,
+      "id": "Pyrrhura eisenmanni",
       "threat_categories": []
     },
     {
@@ -2168,6 +2322,7 @@
       "scientific_name": "Rhynchopsitta terrisi",
       "threats": "[\"Habitat Loss\", \"Climate Change\"]",
       "community": 8,
+      "id": "Rhynchopsitta terrisi",
       "threat_categories": []
     },
     {
@@ -2182,6 +2337,7 @@
       "scientific_name": "Eupsittula nana",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Predation\", \"Human Activity\"]",
       "community": 6,
+      "id": "Eupsittula nana",
       "threat_categories": []
     },
     {
@@ -2196,6 +2352,7 @@
       "scientific_name": "Poicephalus robustus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 12,
+      "id": "Poicephalus robustus",
       "threat_categories": []
     },
     {
@@ -2210,6 +2367,7 @@
       "scientific_name": "Ara militaris",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Pollution\"]",
       "community": 7,
+      "id": "Ara militaris",
       "threat_categories": []
     },
     {
@@ -2224,6 +2382,7 @@
       "scientific_name": "Psittacara chloropterus",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 8,
+      "id": "Psittacara chloropterus",
       "threat_categories": []
     },
     {
@@ -2238,6 +2397,7 @@
       "scientific_name": "Amazona arausiaca",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona arausiaca",
       "threat_categories": []
     },
     {
@@ -2252,6 +2412,7 @@
       "scientific_name": "Amazona imperialis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona imperialis",
       "threat_categories": []
     },
     {
@@ -2266,6 +2427,7 @@
       "scientific_name": "Pyrrhura subandina",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\", \"Pollution\"]",
       "community": 6,
+      "id": "Pyrrhura subandina",
       "threat_categories": []
     },
     {
@@ -2280,6 +2442,7 @@
       "scientific_name": "Pyrrhura caeruleiceps",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 6,
+      "id": "Pyrrhura caeruleiceps",
       "threat_categories": []
     },
     {
@@ -2294,6 +2457,7 @@
       "scientific_name": "Pyrrhura calliptera",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 6,
+      "id": "Pyrrhura calliptera",
       "threat_categories": []
     },
     {
@@ -2308,6 +2472,7 @@
       "scientific_name": "Psittacara euops",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 6,
+      "id": "Psittacara euops",
       "threat_categories": []
     },
     {
@@ -2322,6 +2487,7 @@
       "scientific_name": "Amazona auropalliata",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona auropalliata",
       "threat_categories": []
     },
     {
@@ -2336,6 +2502,7 @@
       "scientific_name": "Pyrrhura rupicola",
       "threats": "[\"Habitat Loss\"]",
       "community": 6,
+      "id": "Pyrrhura rupicola",
       "threat_categories": []
     },
     {
@@ -2349,7 +2516,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Nannopsittaca dachilleae",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Nannopsittaca dachilleae",
       "threat_categories": []
     },
     {
@@ -2364,6 +2532,7 @@
       "scientific_name": "Amazona agilis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 10,
+      "id": "Amazona agilis",
       "threat_categories": []
     },
     {
@@ -2378,6 +2547,7 @@
       "scientific_name": "Ognorhynchus icterotis",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 8,
+      "id": "Ognorhynchus icterotis",
       "threat_categories": []
     },
     {
@@ -2392,6 +2562,7 @@
       "scientific_name": "Amazona lilacina",
       "threats": "[\"Habitat Loss\"]",
       "community": 13,
+      "id": "Amazona lilacina",
       "threat_categories": []
     },
     {
@@ -2406,6 +2577,7 @@
       "scientific_name": "Pyrrhura orcesi",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 6,
+      "id": "Pyrrhura orcesi",
       "threat_categories": []
     },
     {
@@ -2420,6 +2592,7 @@
       "scientific_name": "Tanygnathus sumatranus",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 12,
+      "id": "Tanygnathus sumatranus",
       "threat_categories": []
     },
     {
@@ -2434,6 +2607,7 @@
       "scientific_name": "Tanygnathus everetti",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 12,
+      "id": "Tanygnathus everetti",
       "threat_categories": []
     },
     {
@@ -2448,6 +2622,7 @@
       "scientific_name": "Eupsittula canicularis",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 6,
+      "id": "Eupsittula canicularis",
       "threat_categories": []
     },
     {
@@ -2462,6 +2637,7 @@
       "scientific_name": "Amazona bodini",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona bodini",
       "threat_categories": []
     },
     {
@@ -2476,6 +2652,7 @@
       "scientific_name": "Rhynchopsitta pachyrhyncha",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 8,
+      "id": "Rhynchopsitta pachyrhyncha",
       "threat_categories": []
     },
     {
@@ -2490,6 +2667,7 @@
       "scientific_name": "Eunymphicus uvaeensis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Predation\"]",
       "community": 11,
+      "id": "Eunymphicus uvaeensis",
       "threat_categories": []
     },
     {
@@ -2504,6 +2682,7 @@
       "scientific_name": "Loriculus exilis",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 5,
+      "id": "Loriculus exilis",
       "threat_categories": []
     },
     {
@@ -2518,6 +2697,7 @@
       "scientific_name": "Bolborhynchus ferrugineifrons",
       "threats": "[\"Habitat Loss\"]",
       "community": 5,
+      "id": "Bolborhynchus ferrugineifrons",
       "threat_categories": []
     },
     {
@@ -2532,6 +2712,7 @@
       "scientific_name": "Touit costaricensis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 5,
+      "id": "Touit costaricensis",
       "threat_categories": []
     },
     {
@@ -2546,6 +2727,7 @@
       "scientific_name": "Touit stictopterus",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 5,
+      "id": "Touit stictopterus",
       "threat_categories": []
     },
     {
@@ -2560,6 +2742,7 @@
       "scientific_name": "Brotogeris pyrrhoptera",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 5,
+      "id": "Brotogeris pyrrhoptera",
       "threat_categories": []
     },
     {
@@ -2574,6 +2757,7 @@
       "scientific_name": "Pyrilia pyrilia",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 5,
+      "id": "Pyrilia pyrilia",
       "threat_categories": []
     },
     {
@@ -2588,6 +2772,7 @@
       "scientific_name": "Hapalopsittaca amazonina",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 5,
+      "id": "Hapalopsittaca amazonina",
       "threat_categories": []
     },
     {
@@ -2601,7 +2786,8 @@
       "redlist_category": "Endangered",
       "scientific_name": "Hapalopsittaca fuertesi",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Hapalopsittaca fuertesi",
       "threat_categories": []
     },
     {
@@ -2616,6 +2802,7 @@
       "scientific_name": "Pyrrhura albipectus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 6,
+      "id": "Pyrrhura albipectus",
       "threat_categories": []
     },
     {
@@ -2630,6 +2817,7 @@
       "scientific_name": "Psittacara erythrogenys",
       "threats": "[\"Trade\"]",
       "community": 8,
+      "id": "Psittacara erythrogenys",
       "threat_categories": []
     },
     {
@@ -2644,6 +2832,7 @@
       "scientific_name": "Psittacara frontatus",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 8,
+      "id": "Psittacara frontatus",
       "threat_categories": []
     },
     {
@@ -2658,6 +2847,7 @@
       "scientific_name": "Ara rubrogenys",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 7,
+      "id": "Ara rubrogenys",
       "threat_categories": []
     },
     {
@@ -2672,6 +2862,7 @@
       "scientific_name": "Ara glaucogularis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 7,
+      "id": "Ara glaucogularis",
       "threat_categories": []
     },
     {
@@ -2686,6 +2877,7 @@
       "scientific_name": "Primolius couloni",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 8,
+      "id": "Primolius couloni",
       "threat_categories": []
     },
     {
@@ -2699,7 +2891,8 @@
       "redlist_category": "Near Threatened",
       "scientific_name": "Amazona barbadensis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Predation\"]",
-      "community": 13,
+      "community": 7,
+      "id": "Amazona barbadensis",
       "threat_categories": []
     },
     {
@@ -2714,6 +2907,7 @@
       "scientific_name": "Pyrrhura pfrimeri",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 6,
+      "id": "Pyrrhura pfrimeri",
       "threat_categories": []
     },
     {
@@ -2728,6 +2922,7 @@
       "scientific_name": "Vini peruviana",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 3,
+      "id": "Vini peruviana",
       "threat_categories": []
     },
     {
@@ -2742,6 +2937,7 @@
       "scientific_name": "Lorius chlorocercus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 12,
+      "id": "Lorius chlorocercus",
       "threat_categories": []
     },
     {
@@ -2756,6 +2952,7 @@
       "scientific_name": "Loriculus pusillus",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 2,
+      "id": "Loriculus pusillus",
       "threat_categories": []
     },
     {
@@ -2770,6 +2967,7 @@
       "scientific_name": "Enicognathus leptorhynchus",
       "threats": "[]",
       "community": 8,
+      "id": "Enicognathus leptorhynchus",
       "threat_categories": []
     },
     {
@@ -2783,7 +2981,8 @@
       "redlist_category": "Near Threatened",
       "scientific_name": "Myiopsitta luchsi",
       "threats": "[\"Habitat Loss\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Myiopsitta luchsi",
       "threat_categories": []
     },
     {
@@ -2797,7 +2996,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Aratinga auricapillus",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
-      "community": 9,
+      "community": 8,
+      "id": "Aratinga auricapillus",
       "threat_categories": []
     },
     {
@@ -2811,7 +3011,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Pyrrhura perlata",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Pyrrhura perlata",
       "threat_categories": []
     },
     {
@@ -2826,6 +3027,7 @@
       "scientific_name": "Pyrrhura devillei",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 6,
+      "id": "Pyrrhura devillei",
       "threat_categories": []
     },
     {
@@ -2840,6 +3042,7 @@
       "scientific_name": "Alipiopsitta xanthops",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 10,
+      "id": "Alipiopsitta xanthops",
       "threat_categories": []
     },
     {
@@ -2854,6 +3057,7 @@
       "scientific_name": "Triclaria malachitacea",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 10,
+      "id": "Triclaria malachitacea",
       "threat_categories": []
     },
     {
@@ -2868,6 +3072,7 @@
       "scientific_name": "Touit huetii",
       "threats": "[\"Habitat Loss\"]",
       "community": 5,
+      "id": "Touit huetii",
       "threat_categories": []
     },
     {
@@ -2882,6 +3087,7 @@
       "scientific_name": "Pyrrhura snethlageae",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 6,
+      "id": "Pyrrhura snethlageae",
       "threat_categories": []
     },
     {
@@ -2896,6 +3102,7 @@
       "scientific_name": "Vini kuhlii",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 3,
+      "id": "Vini kuhlii",
       "threat_categories": []
     },
     {
@@ -2910,6 +3117,7 @@
       "scientific_name": "Pionites leucogaster",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 10,
+      "id": "Pionites leucogaster",
       "threat_categories": []
     },
     {
@@ -2924,6 +3132,7 @@
       "scientific_name": "Touit melanonotus",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 5,
+      "id": "Touit melanonotus",
       "threat_categories": []
     },
     {
@@ -2937,7 +3146,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Pyrilia barrabandi",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Pyrilia barrabandi",
       "threat_categories": []
     },
     {
@@ -2951,7 +3161,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Pyrilia caica",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Pyrilia caica",
       "threat_categories": []
     },
     {
@@ -2965,7 +3176,8 @@
       "redlist_category": "Near Threatened",
       "scientific_name": "Pyrilia aurantiocephala",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Pyrilia aurantiocephala",
       "threat_categories": []
     },
     {
@@ -2979,7 +3191,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Pyrilia vulturina",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Pyrilia vulturina",
       "threat_categories": []
     },
     {
@@ -2994,6 +3207,7 @@
       "scientific_name": "Amazona festiva",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona festiva",
       "threat_categories": []
     },
     {
@@ -3008,6 +3222,7 @@
       "scientific_name": "Amazona tucumana",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona tucumana",
       "threat_categories": []
     },
     {
@@ -3022,6 +3237,7 @@
       "scientific_name": "Amazona pretrei",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Diseases\", \"Human Activity\"]",
       "community": 13,
+      "id": "Amazona pretrei",
       "threat_categories": []
     },
     {
@@ -3036,6 +3252,7 @@
       "scientific_name": "Amazona farinosa",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 13,
+      "id": "Amazona farinosa",
       "threat_categories": []
     },
     {
@@ -3050,6 +3267,7 @@
       "scientific_name": "Amazona kawalli",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 13,
+      "id": "Amazona kawalli",
       "threat_categories": []
     },
     {
@@ -3064,6 +3282,7 @@
       "scientific_name": "Pionites xanthurus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 10,
+      "id": "Pionites xanthurus",
       "threat_categories": []
     },
     {
@@ -3078,6 +3297,7 @@
       "scientific_name": "Trichoglossus rosenbergii",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 1,
+      "id": "Trichoglossus rosenbergii",
       "threat_categories": []
     },
     {
@@ -3092,6 +3312,7 @@
       "scientific_name": "Pyrrhura lepida",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 6,
+      "id": "Pyrrhura lepida",
       "threat_categories": []
     },
     {
@@ -3106,6 +3327,7 @@
       "scientific_name": "Pyrrhura amazonum",
       "threats": "[\"Habitat Loss\"]",
       "community": 6,
+      "id": "Pyrrhura amazonum",
       "threat_categories": []
     },
     {
@@ -3119,7 +3341,8 @@
       "redlist_category": "Near Threatened",
       "scientific_name": "Eos cyanogenia",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Eos cyanogenia",
       "threat_categories": []
     },
     {
@@ -3134,6 +3357,7 @@
       "scientific_name": "Zanda baudinii",
       "threats": "[\"Habitat Loss\"]",
       "community": 8,
+      "id": "Zanda baudinii",
       "threat_categories": []
     },
     {
@@ -3148,6 +3372,7 @@
       "scientific_name": "Callocephalon fimbriatum",
       "threats": "[\"Habitat Loss\"]",
       "community": 8,
+      "id": "Callocephalon fimbriatum",
       "threat_categories": []
     },
     {
@@ -3161,7 +3386,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Micropsitta geelvinkiana",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Micropsitta geelvinkiana",
       "threat_categories": []
     },
     {
@@ -3176,6 +3402,7 @@
       "scientific_name": "Neophema chrysostoma",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 3,
+      "id": "Neophema chrysostoma",
       "threat_categories": []
     },
     {
@@ -3189,7 +3416,8 @@
       "redlist_category": "Critically Endangered",
       "scientific_name": "Cyclopsitta coxeni",
       "threats": "[\"Habitat Loss\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Cyclopsitta coxeni",
       "threat_categories": []
     },
     {
@@ -3204,6 +3432,7 @@
       "scientific_name": "Coracopsis sibilans",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 11,
+      "id": "Coracopsis sibilans",
       "threat_categories": []
     },
     {
@@ -3218,6 +3447,7 @@
       "scientific_name": "Calyptorhynchus lathami",
       "threats": "[\"Habitat Loss\", \"Climate Change\"]",
       "community": 8,
+      "id": "Calyptorhynchus lathami",
       "threat_categories": []
     },
     {
@@ -3232,6 +3462,7 @@
       "scientific_name": "Pezoporus occidentalis",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Diseases\", \"Predation\"]",
       "community": 3,
+      "id": "Pezoporus occidentalis",
       "threat_categories": []
     },
     {
@@ -3246,6 +3477,7 @@
       "scientific_name": "Psephotellus chrysopterygius",
       "threats": "[\"Habitat Loss\", \"Predation\"]",
       "community": 3,
+      "id": "Psephotellus chrysopterygius",
       "threat_categories": []
     },
     {
@@ -3260,6 +3492,7 @@
       "scientific_name": "Vini stepheni",
       "threats": "[\"Diseases\"]",
       "community": 3,
+      "id": "Vini stepheni",
       "threat_categories": []
     },
     {
@@ -3274,6 +3507,7 @@
       "scientific_name": "Zanda latirostris",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\"]",
       "community": 8,
+      "id": "Zanda latirostris",
       "threat_categories": []
     },
     {
@@ -3287,7 +3521,8 @@
       "redlist_category": "Near Threatened",
       "scientific_name": "Polytelis alexandrae",
       "threats": "[\"Habitat Loss\", \"Climate Change\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Polytelis alexandrae",
       "threat_categories": []
     },
     {
@@ -3302,6 +3537,7 @@
       "scientific_name": "Cyanoramphus unicolor",
       "threats": "[\"Predation\"]",
       "community": 11,
+      "id": "Cyanoramphus unicolor",
       "threat_categories": []
     },
     {
@@ -3315,7 +3551,8 @@
       "redlist_category": "Vulnerable",
       "scientific_name": "Cyanoramphus forbesi",
       "threats": "[\"Habitat Loss\", \"Predation\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Cyanoramphus forbesi",
       "threat_categories": []
     },
     {
@@ -3330,6 +3567,7 @@
       "scientific_name": "Cyanoramphus auriceps",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Predation\"]",
       "community": 11,
+      "id": "Cyanoramphus auriceps",
       "threat_categories": []
     },
     {
@@ -3344,6 +3582,7 @@
       "scientific_name": "Nestor meridionalis",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Nestor meridionalis",
       "threat_categories": []
     },
     {
@@ -3358,6 +3597,7 @@
       "scientific_name": "Loriculus tener",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 5,
+      "id": "Loriculus tener",
       "threat_categories": []
     },
     {
@@ -3372,6 +3612,7 @@
       "scientific_name": "Cacatua ophthalmica",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Cacatua ophthalmica",
       "threat_categories": []
     },
     {
@@ -3386,6 +3627,7 @@
       "scientific_name": "Trichoglossus rubiginosus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\"]",
       "community": 1,
+      "id": "Trichoglossus rubiginosus",
       "threat_categories": []
     },
     {
@@ -3400,6 +3642,7 @@
       "scientific_name": "Pezoporus wallicus",
       "threats": "[\"Habitat Loss\"]",
       "community": 11,
+      "id": "Pezoporus wallicus",
       "threat_categories": []
     },
     {
@@ -3414,6 +3657,7 @@
       "scientific_name": "Touit surdus",
       "threats": "[\"Habitat Loss\"]",
       "community": 5,
+      "id": "Touit surdus",
       "threat_categories": []
     },
     {
@@ -3428,6 +3672,7 @@
       "scientific_name": "Probosciger aterrimus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\"]",
       "community": 7,
+      "id": "Probosciger aterrimus",
       "threat_categories": []
     },
     {
@@ -3442,6 +3687,7 @@
       "scientific_name": "Psittinus abbotti",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 1,
+      "id": "Psittinus abbotti",
       "threat_categories": []
     },
     {
@@ -3456,6 +3702,7 @@
       "scientific_name": "Psittinus cyanurus",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 1,
+      "id": "Psittinus cyanurus",
       "threat_categories": []
     },
     {
@@ -3470,6 +3717,7 @@
       "scientific_name": "Prioniturus flavicans",
       "threats": "[\"Habitat Loss\"]",
       "community": 10,
+      "id": "Prioniturus flavicans",
       "threat_categories": []
     },
     {
@@ -3484,6 +3732,7 @@
       "scientific_name": "Charmosyna margarethae",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 2,
+      "id": "Charmosyna margarethae",
       "threat_categories": []
     },
     {
@@ -3498,6 +3747,7 @@
       "scientific_name": "Charmosyna meeki",
       "threats": "[\"Habitat Loss\"]",
       "community": 2,
+      "id": "Charmosyna meeki",
       "threat_categories": []
     },
     {
@@ -3512,6 +3762,7 @@
       "scientific_name": "Prosopeia personata",
       "threats": "[\"Habitat Loss\"]",
       "community": 13,
+      "id": "Prosopeia personata",
       "threat_categories": []
     },
     {
@@ -3526,6 +3777,7 @@
       "scientific_name": "Prosopeia splendens",
       "threats": "[\"Trade\", \"Habitat Loss\"]",
       "community": 13,
+      "id": "Prosopeia splendens",
       "threat_categories": []
     },
     {
@@ -3540,6 +3792,7 @@
       "scientific_name": "Charmosyna multistriata",
       "threats": "[\"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 1,
+      "id": "Charmosyna multistriata",
       "threat_categories": []
     },
     {
@@ -3553,7 +3806,8 @@
       "redlist_category": "Endangered",
       "scientific_name": "Hapalopsittaca pyrrhops",
       "threats": "[\"Habitat Loss\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Hapalopsittaca pyrrhops",
       "threat_categories": []
     },
     {
@@ -3568,6 +3822,7 @@
       "scientific_name": "Brotogeris sanctithomae",
       "threats": "[]",
       "community": 4,
+      "id": "Brotogeris sanctithomae",
       "threat_categories": []
     },
     {
@@ -3581,7 +3836,8 @@
       "redlist_category": "Near Threatened",
       "scientific_name": "Himalayapsitta roseata",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Himalayapsitta roseata",
       "threat_categories": []
     },
     {
@@ -3595,7 +3851,8 @@
       "redlist_category": "Endangered",
       "scientific_name": "Cacatua moluccensis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 13,
+      "community": 7,
+      "id": "Cacatua moluccensis",
       "threat_categories": []
     },
     {
@@ -3610,6 +3867,7 @@
       "scientific_name": "Lorius domicella",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 12,
+      "id": "Lorius domicella",
       "threat_categories": []
     },
     {
@@ -3624,6 +3882,7 @@
       "scientific_name": "Aprosmictus jonquillaceus",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 11,
+      "id": "Aprosmictus jonquillaceus",
       "threat_categories": []
     },
     {
@@ -3638,6 +3897,7 @@
       "scientific_name": "Eunymphicus cornutus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 11,
+      "id": "Eunymphicus cornutus",
       "threat_categories": []
     },
     {
@@ -3652,6 +3912,7 @@
       "scientific_name": "Zanda funerea",
       "threats": "[]",
       "community": 8,
+      "id": "Zanda funerea",
       "threat_categories": []
     },
     {
@@ -3666,6 +3927,7 @@
       "scientific_name": "Calyptorhynchus banksii",
       "threats": "[]",
       "community": 8,
+      "id": "Calyptorhynchus banksii",
       "threat_categories": []
     },
     {
@@ -3680,6 +3942,7 @@
       "scientific_name": "Cacatua tenuirostris",
       "threats": "[]",
       "community": 12,
+      "id": "Cacatua tenuirostris",
       "threat_categories": []
     },
     {
@@ -3694,6 +3957,7 @@
       "scientific_name": "Cacatua pastinator",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 13,
+      "id": "Cacatua pastinator",
       "threat_categories": []
     },
     {
@@ -3707,7 +3971,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Alisterus scapularis",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Alisterus scapularis",
       "threat_categories": []
     },
     {
@@ -3722,6 +3987,7 @@
       "scientific_name": "Barnardius zonarius",
       "threats": "[]",
       "community": 11,
+      "id": "Barnardius zonarius",
       "threat_categories": []
     },
     {
@@ -3736,6 +4002,7 @@
       "scientific_name": "Glossopsitta concinna",
       "threats": "[]",
       "community": 1,
+      "id": "Glossopsitta concinna",
       "threat_categories": []
     },
     {
@@ -3750,6 +4017,7 @@
       "scientific_name": "Glossopsitta porphyrocephala",
       "threats": "[]",
       "community": 1,
+      "id": "Glossopsitta porphyrocephala",
       "threat_categories": []
     },
     {
@@ -3764,6 +4032,7 @@
       "scientific_name": "Glossopsitta pusilla",
       "threats": "[]",
       "community": 1,
+      "id": "Glossopsitta pusilla",
       "threat_categories": []
     },
     {
@@ -3778,6 +4047,7 @@
       "scientific_name": "Neophema elegans",
       "threats": "[]",
       "community": 3,
+      "id": "Neophema elegans",
       "threat_categories": []
     },
     {
@@ -3792,6 +4062,7 @@
       "scientific_name": "Neophema petrophila",
       "threats": "[]",
       "community": 3,
+      "id": "Neophema petrophila",
       "threat_categories": []
     },
     {
@@ -3806,6 +4077,7 @@
       "scientific_name": "Neophema pulchella",
       "threats": "[]",
       "community": 3,
+      "id": "Neophema pulchella",
       "threat_categories": []
     },
     {
@@ -3820,6 +4092,7 @@
       "scientific_name": "Neophema splendida",
       "threats": "[\"Habitat Loss\"]",
       "community": 3,
+      "id": "Neophema splendida",
       "threat_categories": []
     },
     {
@@ -3834,6 +4107,7 @@
       "scientific_name": "Neopsephotus bourkii",
       "threats": "[]",
       "community": 3,
+      "id": "Neopsephotus bourkii",
       "threat_categories": []
     },
     {
@@ -3848,6 +4122,7 @@
       "scientific_name": "Northiella haematogaster",
       "threats": "[]",
       "community": 11,
+      "id": "Northiella haematogaster",
       "threat_categories": []
     },
     {
@@ -3862,6 +4137,7 @@
       "scientific_name": "Platycercus adscitus",
       "threats": "[]",
       "community": 3,
+      "id": "Platycercus adscitus",
       "threat_categories": []
     },
     {
@@ -3876,6 +4152,7 @@
       "scientific_name": "Platycercus caledonicus",
       "threats": "[]",
       "community": 11,
+      "id": "Platycercus caledonicus",
       "threat_categories": []
     },
     {
@@ -3890,6 +4167,7 @@
       "scientific_name": "Platycercus eximius",
       "threats": "[]",
       "community": 3,
+      "id": "Platycercus eximius",
       "threat_categories": []
     },
     {
@@ -3904,6 +4182,7 @@
       "scientific_name": "Platycercus icterotis",
       "threats": "[]",
       "community": 3,
+      "id": "Platycercus icterotis",
       "threat_categories": []
     },
     {
@@ -3918,6 +4197,7 @@
       "scientific_name": "Platycercus venustus",
       "threats": "[]",
       "community": 3,
+      "id": "Platycercus venustus",
       "threat_categories": []
     },
     {
@@ -3931,7 +4211,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Polytelis anthopeplus",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Polytelis anthopeplus",
       "threat_categories": []
     },
     {
@@ -3946,6 +4227,7 @@
       "scientific_name": "Psephotellus dissimilis",
       "threats": "[\"Trade\"]",
       "community": 3,
+      "id": "Psephotellus dissimilis",
       "threat_categories": []
     },
     {
@@ -3960,6 +4242,7 @@
       "scientific_name": "Psephotellus varius",
       "threats": "[]",
       "community": 3,
+      "id": "Psephotellus varius",
       "threat_categories": []
     },
     {
@@ -3974,6 +4257,7 @@
       "scientific_name": "Psephotus haematonotus",
       "threats": "[]",
       "community": 3,
+      "id": "Psephotus haematonotus",
       "threat_categories": []
     },
     {
@@ -3988,6 +4272,7 @@
       "scientific_name": "Psitteuteles versicolor",
       "threats": "[]",
       "community": 1,
+      "id": "Psitteuteles versicolor",
       "threat_categories": []
     },
     {
@@ -4002,6 +4287,7 @@
       "scientific_name": "Purpureicephalus spurius",
       "threats": "[]",
       "community": 11,
+      "id": "Purpureicephalus spurius",
       "threat_categories": []
     },
     {
@@ -4015,7 +4301,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Trichoglossus moluccanus",
       "threats": "[\"Trade\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Trichoglossus moluccanus",
       "threat_categories": []
     },
     {
@@ -4029,7 +4316,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Trichoglossus rubritorquis",
       "threats": "[\"Trade\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Trichoglossus rubritorquis",
       "threat_categories": []
     },
     {
@@ -4044,6 +4332,7 @@
       "scientific_name": "Prioniturus luconensis",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 5,
+      "id": "Prioniturus luconensis",
       "threat_categories": []
     },
     {
@@ -4057,7 +4346,8 @@
       "redlist_category": "Vulnerable",
       "scientific_name": "Prioniturus platenae",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Prioniturus platenae",
       "threat_categories": []
     },
     {
@@ -4072,6 +4362,7 @@
       "scientific_name": "Psittacula derbiana",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 8,
+      "id": "Psittacula derbiana",
       "threat_categories": []
     },
     {
@@ -4085,7 +4376,8 @@
       "redlist_category": "Vulnerable",
       "scientific_name": "Belocercus longicaudus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Belocercus longicaudus",
       "threat_categories": []
     },
     {
@@ -4100,6 +4392,7 @@
       "scientific_name": "Prioniturus waterstradti",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 1,
+      "id": "Prioniturus waterstradti",
       "threat_categories": []
     },
     {
@@ -4114,6 +4407,7 @@
       "scientific_name": "Prioniturus montanus",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
       "community": 3,
+      "id": "Prioniturus montanus",
       "threat_categories": []
     },
     {
@@ -4128,6 +4422,7 @@
       "scientific_name": "Lorius albidinucha",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 12,
+      "id": "Lorius albidinucha",
       "threat_categories": []
     },
     {
@@ -4141,7 +4436,8 @@
       "redlist_category": "Near Threatened",
       "scientific_name": "Psittacula alexandri",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Climate Change\", \"Human Activity\"]",
-      "community": 9,
+      "community": 8,
+      "id": "Psittacula alexandri",
       "threat_categories": []
     },
     {
@@ -4155,7 +4451,8 @@
       "redlist_category": "Near Threatened",
       "scientific_name": "Himalayapsitta finschii",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Himalayapsitta finschii",
       "threat_categories": []
     },
     {
@@ -4170,6 +4467,7 @@
       "scientific_name": "Trichoglossus iris",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 2,
+      "id": "Trichoglossus iris",
       "threat_categories": []
     },
     {
@@ -4184,6 +4482,7 @@
       "scientific_name": "Loriculus sclateri",
       "threats": "[]",
       "community": 5,
+      "id": "Loriculus sclateri",
       "threat_categories": []
     },
     {
@@ -4198,6 +4497,7 @@
       "scientific_name": "Touit purpuratus",
       "threats": "[]",
       "community": 2,
+      "id": "Touit purpuratus",
       "threat_categories": []
     },
     {
@@ -4211,7 +4511,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Aprosmictus erythropterus",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Aprosmictus erythropterus",
       "threat_categories": []
     },
     {
@@ -4226,6 +4527,7 @@
       "scientific_name": "Eupsittula cactorum",
       "threats": "[]",
       "community": 6,
+      "id": "Eupsittula cactorum",
       "threat_categories": []
     },
     {
@@ -4240,6 +4542,7 @@
       "scientific_name": "Eupsittula aurea",
       "threats": "[\"Trade\"]",
       "community": 1,
+      "id": "Eupsittula aurea",
       "threat_categories": []
     },
     {
@@ -4254,6 +4557,7 @@
       "scientific_name": "Diopsittaca cumanensis",
       "threats": "[]",
       "community": 8,
+      "id": "Diopsittaca cumanensis",
       "threat_categories": []
     },
     {
@@ -4268,6 +4572,7 @@
       "scientific_name": "Psilopsiagon aurifrons",
       "threats": "[]",
       "community": 2,
+      "id": "Psilopsiagon aurifrons",
       "threat_categories": []
     },
     {
@@ -4282,6 +4587,7 @@
       "scientific_name": "Psilopsiagon aymara",
       "threats": "[]",
       "community": 6,
+      "id": "Psilopsiagon aymara",
       "threat_categories": []
     },
     {
@@ -4296,6 +4602,7 @@
       "scientific_name": "Chalcopsitta atra",
       "threats": "[]",
       "community": 12,
+      "id": "Chalcopsitta atra",
       "threat_categories": []
     },
     {
@@ -4310,6 +4617,7 @@
       "scientific_name": "Primolius auricollis",
       "threats": "[]",
       "community": 8,
+      "id": "Primolius auricollis",
       "threat_categories": []
     },
     {
@@ -4323,7 +4631,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Pseudeos fuscata",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Pseudeos fuscata",
       "threat_categories": []
     },
     {
@@ -4338,6 +4647,7 @@
       "scientific_name": "Orthopsittaca manilatus",
       "threats": "[]",
       "community": 8,
+      "id": "Orthopsittaca manilatus",
       "threat_categories": []
     },
     {
@@ -4352,6 +4662,7 @@
       "scientific_name": "Pionus maximiliani",
       "threats": "[\"Trade\"]",
       "community": 13,
+      "id": "Pionus maximiliani",
       "threat_categories": []
     },
     {
@@ -4366,6 +4677,7 @@
       "scientific_name": "Loriculus beryllinus",
       "threats": "[]",
       "community": 2,
+      "id": "Loriculus beryllinus",
       "threat_categories": []
     },
     {
@@ -4380,6 +4692,7 @@
       "scientific_name": "Loriculus philippensis",
       "threats": "[]",
       "community": 5,
+      "id": "Loriculus philippensis",
       "threat_categories": []
     },
     {
@@ -4394,6 +4707,7 @@
       "scientific_name": "Pionites xanthomerius",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
       "community": 10,
+      "id": "Pionites xanthomerius",
       "threat_categories": []
     },
     {
@@ -4407,7 +4721,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Trichoglossus capistratus",
       "threats": "[\"Trade\"]",
-      "community": 9,
+      "community": 0,
+      "id": "Trichoglossus capistratus",
       "threat_categories": []
     },
     {
@@ -4422,6 +4737,7 @@
       "scientific_name": "Poicephalus rufiventris",
       "threats": "[]",
       "community": 10,
+      "id": "Poicephalus rufiventris",
       "threat_categories": []
     },
     {
@@ -4436,6 +4752,7 @@
       "scientific_name": "Poicephalus meyeri",
       "threats": "[\"Trade\"]",
       "community": 4,
+      "id": "Poicephalus meyeri",
       "threat_categories": []
     },
     {
@@ -4449,7 +4766,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Psittacella lorentzi",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Psittacella lorentzi",
       "threat_categories": []
     },
     {
@@ -4463,7 +4781,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Psittacella picta",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Psittacella picta",
       "threat_categories": []
     },
     {
@@ -4478,6 +4797,7 @@
       "scientific_name": "Touit batavicus",
       "threats": "[]",
       "community": 1,
+      "id": "Touit batavicus",
       "threat_categories": []
     },
     {
@@ -4492,6 +4812,7 @@
       "scientific_name": "Nannopsittaca panychlora",
       "threats": "[]",
       "community": 2,
+      "id": "Nannopsittaca panychlora",
       "threat_categories": []
     },
     {
@@ -4506,6 +4827,7 @@
       "scientific_name": "Brotogeris chrysoptera",
       "threats": "[]",
       "community": 4,
+      "id": "Brotogeris chrysoptera",
       "threat_categories": []
     },
     {
@@ -4520,6 +4842,7 @@
       "scientific_name": "Pyrrhura roseifrons",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura roseifrons",
       "threat_categories": []
     },
     {
@@ -4534,6 +4857,7 @@
       "scientific_name": "Tanygnathus megalorynchos",
       "threats": "[]",
       "community": 12,
+      "id": "Tanygnathus megalorynchos",
       "threat_categories": []
     },
     {
@@ -4548,6 +4872,7 @@
       "scientific_name": "Loriculus amabilis",
       "threats": "[]",
       "community": 5,
+      "id": "Loriculus amabilis",
       "threat_categories": []
     },
     {
@@ -4561,7 +4886,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Psittacella brehmii",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Psittacella brehmii",
       "threat_categories": []
     },
     {
@@ -4575,7 +4901,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Forpus coelestis",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Forpus coelestis",
       "threat_categories": []
     },
     {
@@ -4590,6 +4917,7 @@
       "scientific_name": "Forpus modestus",
       "threats": "[]",
       "community": 4,
+      "id": "Forpus modestus",
       "threat_categories": []
     },
     {
@@ -4604,6 +4932,7 @@
       "scientific_name": "Bolbopsittacus lunulatus",
       "threats": "[]",
       "community": 4,
+      "id": "Bolbopsittacus lunulatus",
       "threat_categories": []
     },
     {
@@ -4618,6 +4947,7 @@
       "scientific_name": "Psittaculirostris salvadorii",
       "threats": "[\"Trade\", \"Habitat Loss\", \"Human Activity\"]",
       "community": 4,
+      "id": "Psittaculirostris salvadorii",
       "threat_categories": []
     },
     {
@@ -4632,6 +4962,7 @@
       "scientific_name": "Pyrrhura parvifrons",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura parvifrons",
       "threat_categories": []
     },
     {
@@ -4646,6 +4977,7 @@
       "scientific_name": "Psittaculirostris edwardsii",
       "threats": "[]",
       "community": 4,
+      "id": "Psittaculirostris edwardsii",
       "threat_categories": []
     },
     {
@@ -4659,7 +4991,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Brotogeris cyanoptera",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Brotogeris cyanoptera",
       "threat_categories": []
     },
     {
@@ -4673,7 +5006,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Geoffroyus simplex",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Geoffroyus simplex",
       "threat_categories": []
     },
     {
@@ -4687,7 +5021,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Psittacella madaraszi",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Psittacella madaraszi",
       "threat_categories": []
     },
     {
@@ -4702,6 +5037,7 @@
       "scientific_name": "Brotogeris tirica",
       "threats": "[]",
       "community": 6,
+      "id": "Brotogeris tirica",
       "threat_categories": []
     },
     {
@@ -4715,7 +5051,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Psittacella modesta",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Psittacella modesta",
       "threat_categories": []
     },
     {
@@ -4730,6 +5067,7 @@
       "scientific_name": "Graydidascalus brachyurus",
       "threats": "[]",
       "community": 10,
+      "id": "Graydidascalus brachyurus",
       "threat_categories": []
     },
     {
@@ -4743,7 +5081,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Hapalopsittaca melanotis",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Hapalopsittaca melanotis",
       "threat_categories": []
     },
     {
@@ -4758,6 +5097,7 @@
       "scientific_name": "Alisterus amboinensis",
       "threats": "[]",
       "community": 11,
+      "id": "Alisterus amboinensis",
       "threat_categories": []
     },
     {
@@ -4771,7 +5111,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Pyrilia pulchra",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Pyrilia pulchra",
       "threat_categories": []
     },
     {
@@ -4786,6 +5127,7 @@
       "scientific_name": "Alisterus chloropterus",
       "threats": "[]",
       "community": 11,
+      "id": "Alisterus chloropterus",
       "threat_categories": []
     },
     {
@@ -4800,6 +5142,7 @@
       "scientific_name": "Oreopsittacus arfaki",
       "threats": "[]",
       "community": 2,
+      "id": "Oreopsittacus arfaki",
       "threat_categories": []
     },
     {
@@ -4814,6 +5157,7 @@
       "scientific_name": "Neopsittacus pullicauda",
       "threats": "[]",
       "community": 3,
+      "id": "Neopsittacus pullicauda",
       "threat_categories": []
     },
     {
@@ -4828,6 +5172,7 @@
       "scientific_name": "Neopsittacus musschenbroekii",
       "threats": "[]",
       "community": 3,
+      "id": "Neopsittacus musschenbroekii",
       "threat_categories": []
     },
     {
@@ -4842,6 +5187,7 @@
       "scientific_name": "Aratinga weddellii",
       "threats": "[]",
       "community": 6,
+      "id": "Aratinga weddellii",
       "threat_categories": []
     },
     {
@@ -4856,6 +5202,7 @@
       "scientific_name": "Charmosyna rubrigularis",
       "threats": "[]",
       "community": 2,
+      "id": "Charmosyna rubrigularis",
       "threat_categories": []
     },
     {
@@ -4870,6 +5217,7 @@
       "scientific_name": "Psittaculirostris cervicalis",
       "threats": "[]",
       "community": 4,
+      "id": "Psittaculirostris cervicalis",
       "threat_categories": []
     },
     {
@@ -4884,6 +5232,7 @@
       "scientific_name": "Psittaculirostris godmani",
       "threats": "[]",
       "community": 4,
+      "id": "Psittaculirostris godmani",
       "threat_categories": []
     },
     {
@@ -4897,7 +5246,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Forpus spengeli",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Forpus spengeli",
       "threat_categories": []
     },
     {
@@ -4911,7 +5261,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Charmosyna josefinae",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Charmosyna josefinae",
       "threat_categories": []
     },
     {
@@ -4925,7 +5276,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Charmosyna pulchella",
       "threats": "[]",
-      "community": 2,
+      "community": 1,
+      "id": "Charmosyna pulchella",
       "threat_categories": []
     },
     {
@@ -4940,6 +5292,7 @@
       "scientific_name": "Charmosyna rubronotata",
       "threats": "[]",
       "community": 2,
+      "id": "Charmosyna rubronotata",
       "threat_categories": []
     },
     {
@@ -4953,7 +5306,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Forpus xanthopterygius",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Forpus xanthopterygius",
       "threat_categories": []
     },
     {
@@ -4968,6 +5322,7 @@
       "scientific_name": "Charmosyna placentis",
       "threats": "[]",
       "community": 2,
+      "id": "Charmosyna placentis",
       "threat_categories": []
     },
     {
@@ -4982,6 +5337,7 @@
       "scientific_name": "Charmosyna wilhelminae",
       "threats": "[]",
       "community": 2,
+      "id": "Charmosyna wilhelminae",
       "threat_categories": []
     },
     {
@@ -4996,6 +5352,7 @@
       "scientific_name": "Prioniturus discurus",
       "threats": "[]",
       "community": 5,
+      "id": "Prioniturus discurus",
       "threat_categories": []
     },
     {
@@ -5009,7 +5366,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Micropsitta meeki",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Micropsitta meeki",
       "threat_categories": []
     },
     {
@@ -5024,6 +5382,7 @@
       "scientific_name": "Micropsitta pusio",
       "threats": "[]",
       "community": 4,
+      "id": "Micropsitta pusio",
       "threat_categories": []
     },
     {
@@ -5038,6 +5397,7 @@
       "scientific_name": "Pyrrhura rhodocephala",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura rhodocephala",
       "threat_categories": []
     },
     {
@@ -5052,6 +5412,7 @@
       "scientific_name": "Micropsitta keiensis",
       "threats": "[]",
       "community": 4,
+      "id": "Micropsitta keiensis",
       "threat_categories": []
     },
     {
@@ -5066,6 +5427,7 @@
       "scientific_name": "Bolborhynchus orbygnesius",
       "threats": "[]",
       "community": 2,
+      "id": "Bolborhynchus orbygnesius",
       "threat_categories": []
     },
     {
@@ -5079,7 +5441,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Micropsitta finschii",
       "threats": "[\"Habitat Loss\", \"Human Activity\"]",
-      "community": 0,
+      "community": 9,
+      "id": "Micropsitta finschii",
       "threat_categories": []
     },
     {
@@ -5094,6 +5457,7 @@
       "scientific_name": "Micropsitta bruijnii",
       "threats": "[]",
       "community": 5,
+      "id": "Micropsitta bruijnii",
       "threat_categories": []
     },
     {
@@ -5108,6 +5472,7 @@
       "scientific_name": "Pyrrhura peruviana",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura peruviana",
       "threat_categories": []
     },
     {
@@ -5122,6 +5487,7 @@
       "scientific_name": "Pyrrhura egregia",
       "threats": "[]",
       "community": 6,
+      "id": "Pyrrhura egregia",
       "threat_categories": []
     },
     {
@@ -5135,7 +5501,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Nicopsitta columboides",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Nicopsitta columboides",
       "threat_categories": []
     },
     {
@@ -5149,7 +5516,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Himalayapsitta cyanocephala",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Himalayapsitta cyanocephala",
       "threat_categories": []
     },
     {
@@ -5163,7 +5531,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Eos squamata",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Eos squamata",
       "threat_categories": []
     },
     {
@@ -5177,7 +5546,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Chalcopsitta cardinalis",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Chalcopsitta cardinalis",
       "threat_categories": []
     },
     {
@@ -5192,6 +5562,7 @@
       "scientific_name": "Chalcopsitta scintillata",
       "threats": "[]",
       "community": 12,
+      "id": "Chalcopsitta scintillata",
       "threat_categories": []
     },
     {
@@ -5206,6 +5577,7 @@
       "scientific_name": "Pionus seniloides",
       "threats": "[]",
       "community": 13,
+      "id": "Pionus seniloides",
       "threat_categories": []
     },
     {
@@ -5219,7 +5591,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Cyclopsitta amabilis",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Cyclopsitta amabilis",
       "threat_categories": []
     },
     {
@@ -5233,7 +5606,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Cyclopsitta melanogenia",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Cyclopsitta melanogenia",
       "threat_categories": []
     },
     {
@@ -5247,7 +5621,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Cyclopsitta gulielmitertii",
       "threats": "[]",
-      "community": 0,
+      "community": 9,
+      "id": "Cyclopsitta gulielmitertii",
       "threat_categories": []
     },
     {
@@ -5261,7 +5636,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Charmosyna stellae",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Charmosyna stellae",
       "threat_categories": []
     },
     {
@@ -5275,7 +5651,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Himalayapsitta himalayana",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Himalayapsitta himalayana",
       "threat_categories": []
     },
     {
@@ -5289,7 +5666,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Alexandrinus krameri",
       "threats": "[]",
-      "community": 9,
+      "community": 0,
+      "id": "Alexandrinus krameri",
       "threat_categories": []
     },
     {
@@ -5304,6 +5682,7 @@
       "scientific_name": "Lorius hypoinochrous",
       "threats": "[]",
       "community": 12,
+      "id": "Lorius hypoinochrous",
       "threat_categories": []
     },
     {
@@ -5318,6 +5697,7 @@
       "scientific_name": "Psittaculirostris desmarestii",
       "threats": "[]",
       "community": 4,
+      "id": "Psittaculirostris desmarestii",
       "threat_categories": []
     },
     {
@@ -5332,6 +5712,7 @@
       "scientific_name": "Phigys solitarius",
       "threats": "[]",
       "community": 1,
+      "id": "Phigys solitarius",
       "threat_categories": []
     },
     {
@@ -5346,6 +5727,7 @@
       "scientific_name": "Trichoglossus ornatus",
       "threats": "[\"Habitat Loss\"]",
       "community": 1,
+      "id": "Trichoglossus ornatus",
       "threat_categories": []
     },
     {
@@ -5360,6 +5742,7 @@
       "scientific_name": "Cyclopsitta diophthalma",
       "threats": "[]",
       "community": 4,
+      "id": "Cyclopsitta diophthalma",
       "threat_categories": []
     },
     {
@@ -5374,6 +5757,7 @@
       "scientific_name": "Trichoglossus meyeri",
       "threats": "[]",
       "community": 2,
+      "id": "Trichoglossus meyeri",
       "threat_categories": []
     },
     {
@@ -5388,6 +5772,7 @@
       "scientific_name": "Pionus sordidus",
       "threats": "[]",
       "community": 10,
+      "id": "Pionus sordidus",
       "threat_categories": []
     },
     {
@@ -5402,6 +5787,7 @@
       "scientific_name": "Loriculus vernalis",
       "threats": "[]",
       "community": 2,
+      "id": "Loriculus vernalis",
       "threat_categories": []
     },
     {
@@ -5416,6 +5802,7 @@
       "scientific_name": "Charmosyna papou",
       "threats": "[]",
       "community": 2,
+      "id": "Charmosyna papou",
       "threat_categories": []
     },
     {
@@ -5430,6 +5817,7 @@
       "scientific_name": "Loriculus aurantiifrons",
       "threats": "[]",
       "community": 5,
+      "id": "Loriculus aurantiifrons",
       "threat_categories": []
     },
     {
@@ -5443,7 +5831,8 @@
       "redlist_category": "Least Concern",
       "scientific_name": "Deroptyus accipitrinus",
       "threats": "[]",
-      "community": 13,
+      "community": 7,
+      "id": "Deroptyus accipitrinus",
       "threat_categories": []
     },
     {
@@ -5458,6 +5847,7 @@
       "scientific_name": "Loriculus stigmatus",
       "threats": "[]",
       "community": 5,
+      "id": "Loriculus stigmatus",
       "threat_categories": []
     },
     {
@@ -5472,6 +5862,7 @@
       "scientific_name": "Poicephalus flavifrons",
       "threats": "[]",
       "community": 12,
+      "id": "Poicephalus flavifrons",
       "threat_categories": []
     },
     {
@@ -5486,6 +5877,7 @@
       "scientific_name": "Poicephalus crassus",
       "threats": "[]",
       "community": 12,
+      "id": "Poicephalus crassus",
       "threat_categories": []
     },
     {
@@ -5500,6 +5892,7 @@
       "scientific_name": "Poicephalus gulielmi",
       "threats": "[\"Trade\"]",
       "community": 12,
+      "id": "Poicephalus gulielmi",
       "threat_categories": []
     },
     {
@@ -5514,6 +5907,7 @@
       "scientific_name": "Agapornis pullarius",
       "threats": "[]",
       "community": 4,
+      "id": "Agapornis pullarius",
       "threat_categories": []
     },
     {
@@ -5528,6 +5922,7 @@
       "scientific_name": "Amazona mercenarius",
       "threats": "[]",
       "community": 13,
+      "id": "Amazona mercenarius",
       "threat_categories": []
     },
     {
@@ -5542,6 +5937,7 @@
       "scientific_name": "Agapornis taranta",
       "threats": "[]",
       "community": 4,
+      "id": "Agapornis taranta",
       "threat_categories": []
     },
     {
@@ -5556,6 +5952,7 @@
       "scientific_name": "Cyclopsitta nigrifrons",
       "threats": "[]",
       "community": 4,
+      "id": "Cyclopsitta nigrifrons",
       "threat_categories": []
     },
     {
@@ -5570,6 +5967,7 @@
       "scientific_name": "Poicephalus rueppellii",
       "threats": "[]",
       "community": 4,
+      "id": "Poicephalus rueppellii",
       "threat_categories": []
     }
   ],
