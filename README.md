@@ -12,4 +12,6 @@ This project involves the analysis and visualization of ecological and morpholog
 
 **/ecology** : Notebooks related to the ecological parrots network
 
-**/maps** : Files related to the interactive web visualization of the networks and JSON representation of the ecological and morphological networks
+**/extinction_status** : Notebooks related to the extinction status and threats of the birds
+
+**/maps** : Files related to the interactive web visualization of the networks and JSON representation of the ecological and morphological networks including threats
